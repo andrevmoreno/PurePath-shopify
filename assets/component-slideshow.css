@@ -38,6 +38,7 @@ slideshow-component .slideshow.banner {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background: rgba(255, 255, 255, 0.7) !important;
   /* max-width: 54.5rem; */
 }
 
