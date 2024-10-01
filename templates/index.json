@@ -1,1 +1,423 @@
-{"sections":{"slideshow":{"type":"slideshow","blocks":{"slide-0":{"type":"slide","settings":{"heading":"Browse our latest products","heading_size":"h1","subheading":"","button_label":"Shop all","link":"shopify:\/\/collections\/all","button_style_secondary":true,"box_align":"bottom-center","show_text_box":true,"text_alignment":"center","image_overlay_opacity":0,"color_scheme":"scheme-1","text_alignment_mobile":"center"}}},"block_order":["slide-0"],"settings":{"layout":"full_bleed","slide_height":"medium","slider_visual":"counter","auto_rotate":false,"change_slides_speed":5,"image_behavior":"none","show_text_below":true,"accessibility_info":"Slideshow about our brand"}},"featured_collection":{"type":"featured-collection","settings":{"title":"Featured products","heading_size":"h2","description":"","show_description":false,"description_style":"body","collection":"all","products_to_show":8,"columns_desktop":4,"full_width":false,"show_view_all":false,"view_all_style":"solid","enable_desktop_slider":false,"color_scheme":"scheme-1","image_ratio":"square","image_shape":"default","show_secondary_image":false,"show_vendor":false,"show_rating":false,"quick_add":"none","columns_mobile":"2","swipe_on_mobile":true,"padding_top":16,"padding_bottom":64}},"image_with_text_iyYwjb":{"type":"image-with-text","blocks":{"heading_8eVXzd":{"type":"heading","settings":{"heading":"Image with text","heading_size":"h1"}},"text_RHAL6t":{"type":"text","settings":{"text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","text_style":"body"}},"button_EaXbVg":{"type":"button","settings":{"button_label":"Button label","button_link":"","button_style_secondary":false}}},"block_order":["heading_8eVXzd","text_RHAL6t","button_EaXbVg"],"settings":{"height":"adapt","desktop_image_width":"medium","layout":"image_first","desktop_content_position":"top","desktop_content_alignment":"left","content_layout":"overlap","section_color_scheme":"","color_scheme":"","image_behavior":"none","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}},"image_with_text_jVYwcn":{"type":"image-with-text","blocks":{"heading_tCPby9":{"type":"heading","settings":{"heading":"Image with text","heading_size":"h1"}},"text_bztCW4":{"type":"text","settings":{"text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","text_style":"body"}},"button_fCYMHE":{"type":"button","settings":{"button_label":"Button label","button_link":"","button_style_secondary":false}}},"block_order":["heading_tCPby9","text_bztCW4","button_fCYMHE"],"settings":{"height":"adapt","desktop_image_width":"medium","layout":"text_first","desktop_content_position":"top","desktop_content_alignment":"left","content_layout":"overlap","section_color_scheme":"","color_scheme":"","image_behavior":"none","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}},"multirow_UwWwwi":{"type":"multirow","blocks":{"row_hKFBMR":{"type":"row","settings":{"caption":"Caption","heading":"Row","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","button_label":"Button label","button_link":""}},"row_bWRUJz":{"type":"row","settings":{"caption":"Caption","heading":"Row","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","button_label":"Button label","button_link":""}},"row_8D7Rkx":{"type":"row","settings":{"caption":"Caption","heading":"Row","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","button_label":"Button label","button_link":""}}},"block_order":["row_hKFBMR","row_bWRUJz","row_8D7Rkx"],"settings":{"image_height":"medium","desktop_image_width":"medium","heading_size":"h1","text_style":"body","button_style":"secondary","desktop_content_position":"middle","desktop_content_alignment":"left","image_layout":"alternate-left","section_color_scheme":"","row_color_scheme":"","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}},"collapsible_content_7VrzHW":{"type":"collapsible-content","blocks":{"collapsible_row_HUgX3i":{"type":"collapsible_row","settings":{"heading":"Collapsible row","icon":"check_mark","row_content":"","page":""}},"collapsible_row_AHheXj":{"type":"collapsible_row","settings":{"heading":"Collapsible row","icon":"check_mark","row_content":"","page":""}},"collapsible_row_wAtfaE":{"type":"collapsible_row","settings":{"heading":"Collapsible row","icon":"check_mark","row_content":"","page":""}},"collapsible_row_qVNknW":{"type":"collapsible_row","settings":{"heading":"Collapsible row","icon":"check_mark","row_content":"","page":""}}},"block_order":["collapsible_row_HUgX3i","collapsible_row_AHheXj","collapsible_row_wAtfaE","collapsible_row_qVNknW"],"settings":{"caption":"","heading":"Collapsible content","heading_size":"h1","heading_alignment":"center","layout":"none","color_scheme":"","container_color_scheme":"","open_first_collapsible_row":false,"image_ratio":"adapt","desktop_layout":"image_second","padding_top":36,"padding_bottom":36}}},"order":["slideshow","featured_collection","image_with_text_iyYwjb","image_with_text_jVYwcn","multirow_UwWwwi","collapsible_content_7VrzHW"]}
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/banner-1.png",
+            "heading": "<strong>Regain Your Hair's Radiance, Mom!—MammaGlow™ Is Your Answer</strong>",
+            "heading_size": "h1",
+            "subheading": "<strong>Say goodbye to postpartum hair loss and embrace the secret to stronger, healthier hair after having a baby.In just a few minutes a day, you can revive your hair’s natural shine, stimulate growth, and soothe your scalp—all while easing the tension that comes with motherhood—perfect for the busiest moms</strong>",
+            "button_label": "Reclaim Your Glow!",
+            "link": "shopify://products/portable-3-mode-red-light-laser-electric-massage-comb",
+            "button_style_secondary": false,
+            "box_align": "bottom-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide-0"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "17278068135b072e4e": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_card_carousel_section_68igqe": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-card-carousel-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "maxWidth": 1100,
+            "borderRadius": 8,
+            "itemsPerView": 4,
+            "mobileItemsPerView": 1,
+            "maxNumberOfCharacters": 100,
+            "imageRatio": "0.72",
+            "reviewerNameColor": "#000000",
+            "textColor": "#000000",
+            "itemBackgroundColor": "#ffffff",
+            "starsColor": "",
+            "starsBackgroundColor": "#ffffff",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
+            "shadow": "offset-dark",
+            "border_active": false,
+            "border_width": 2,
+            "border_color": "#000000",
+            "productIds": ""
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_card_carousel_section_68igqe"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "image_with_text_iyYwjb": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_8eVXzd": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Self-Care Isn’t a Luxury—It’s a Necessity. MammaGlow™ Makes It Easy to Put You First</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_RHAL6t": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Feel the difference with <strong>MammaGlow™</strong> and regain your confidence with thicker, fuller hair. Our gentle infrared technology and unique massage action stimulate hair regrowth and relieve tension—perfect for busy moms who deserve a little self-care</p>",
+            "text_style": "body"
+          }
+        },
+        "button_EaXbVg": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_8eVXzd",
+        "text_RHAL6t",
+        "button_EaXbVg"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/uX7eNqFbXTjBy25ReRpt.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "image_with_text_jVYwcn": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_tCPby9": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Gentle Infrared Technology</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_bztCW4": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>MammaGlow™</strong> harnesses the gentle power of <strong>630nm infrared light</strong> to naturally boost hair regrowth and revitalize your scalp. This deep-penetrating light reaches hair follicles to promote healthier, fuller hair while improving circulation and soothing scalp irritation.</p><p>Not only does it address common issues like dryness and sensitivity, but it also enhances the absorption of your favorite hair care products. With each use, you’ll notice your scalp feels healthier, and your hair begins to regain its strength and volume.</p><p>Designed for new moms, <strong>MammaGlow™</strong> offers a safe, non-invasive solution to restore your hair’s natural vitality—all from the comfort of your home.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_fCYMHE": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_tCPby9",
+        "text_bztCW4",
+        "button_fCYMHE"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Screenshot_2024-09-30_at_11.23.26_PM.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "image_with_text_67zmpq": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_RbXmd9": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Unique Massage Action</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_efUbeT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The <strong>Grasp Massage</strong> from MammaGlow™ provides a soothing, yet powerful experience that relaxes your scalp and mind. With <strong>8 Guide Balls</strong> applying your favorite hair care products evenly and <strong>72 Round Comb Teeth</strong> massaging your scalp, you can choose from <strong>three modes</strong> to suit your needs:</p><p></p><ul><li><strong>Quick Calm Mode</strong>: A gentle massage for when you need a fast moment of relaxation.</li><li><strong>Energy Boost Mode</strong>: A stimulating massage to get you through busy days.</li><li><strong>Restful Night Mode</strong>: A calming massage to help you unwind and prepare for restful sleep.</li></ul><p></p><p>With MammaGlow™, you’re cared for no matter how hectic the day gets.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_WzHfcV": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_RbXmd9",
+        "text_efUbeT",
+        "button_WzHfcV"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Screenshot_2024-09-30_at_11.23.14_PM.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "bottom",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 4,
+        "padding_bottom": 8
+      }
+    },
+    "image_with_text_x98rGY": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_UrEd94": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Self-Care Made Easy</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_DmRmEX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Self-care shouldn’t be complicated. MammaGlow™ makes it simple and stress-free. Designed for busy moms, it allows you to nurture your hair and scalp in just a few minutes a day—without the need for salon visits. </p><p>Whether you're in need of relaxation, an energy boost, or calm before bed, <strong>MammaGlow™</strong> fits seamlessly into your routine.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_t7THyN": {
+          "type": "button",
+          "settings": {
+            "button_label": "ButtonTry MammaGlow™ Now!",
+            "button_link": "shopify://products/portable-3-mode-red-light-laser-electric-massage-comb",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_UrEd94",
+        "text_DmRmEX",
+        "button_t7THyN"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Screenshot_2024-09-30_at_11.23.26_PM.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "bottom",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "collage_8Kk8jB": {
+      "type": "collage",
+      "blocks": {
+        "image_dTiM6N": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "product_KWE4yV": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false
+          }
+        },
+        "collection_qMctyn": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_dTiM6N",
+        "product_KWE4yV",
+        "collection_qMctyn"
+      ],
+      "settings": {
+        "heading": "<strong>Postpartum Hair Loss? We Understand the Struggle</strong>",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "scheme-4",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_7VrzHW": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_HUgX3i": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "1. How does MammaGlow™ work?",
+            "icon": "check_mark",
+            "row_content": "<p>MammaGlow™ uses gentle infrared light therapy and a soothing scalp massage to stimulate hair follicles, promote natural hair regrowth, and relieve scalp tension. It's designed to help new moms recover from postpartum hair thinning, all while providing a calming self-care experience.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_AHheXj": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "2. Is infrared light therapy safe?",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_wAtfaE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "3. How long will it take to see results?",
+            "icon": "check_mark",
+            "row_content": "<p>Results vary, but many moms notice improvements in hair thickness and scalp health within a few weeks of regular use. For best results, we recommend using the comb 3-4 times a week.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_qVNknW": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "4. Can I use MammaGlow™ with my favorite hair products?",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_kCCmPR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "5. Is it suitable for sensitive scalps or thinning hair?",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_nHRBdD": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "6. Do I need to visit a salon for treatments?",
+            "icon": "check_mark",
+            "row_content": "<p>No need! MammaGlow™ brings professional-quality hair care to your home, making it perfect for busy moms who don’t have time for salon visits but still want effective care.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_9DNBhb": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "7. How much time do I need for each session?",
+            "icon": "check_mark",
+            "row_content": "<p>Each session only takes a few minutes, making it easy to fit into your daily routine. It’s quick, effortless, and effective!</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_YM3tqQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "8. What if I’m not satisfied with the product?",
+            "icon": "check_mark",
+            "row_content": "<p>We’re confident you’ll love MammaGlow™, but if for any reason you're not completely satisfied, we offer a hassle-free return policy to ensure your peace of mind.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_HUgX3i",
+        "collapsible_row_AHheXj",
+        "collapsible_row_wAtfaE",
+        "collapsible_row_qVNknW",
+        "collapsible_row_kCCmPR",
+        "collapsible_row_nHRBdD",
+        "collapsible_row_9DNBhb",
+        "collapsible_row_YM3tqQ"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Curious About MammaGlow? We’ve Got You Covered",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "scheme-1",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "17278068135b072e4e",
+    "image_with_text_iyYwjb",
+    "image_with_text_jVYwcn",
+    "image_with_text_67zmpq",
+    "image_with_text_x98rGY",
+    "collage_8Kk8jB",
+    "collapsible_content_7VrzHW"
+  ]
+}
