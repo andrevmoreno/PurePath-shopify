@@ -62,8 +62,8 @@
             "itemBackgroundColor": "#ffffff",
             "starsColor": "",
             "starsBackgroundColor": "#ffffff",
-            "arrows_backgroundColor": "#FFFFFF",
-            "arrows_iconColor": "#9A9A9A",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
             "shadow": "offset-dark",
             "border_active": false,
             "border_width": 2,
@@ -80,34 +80,6 @@
       ],
       "settings": {
         "include_margins": true
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-1",
-        "image_ratio": "square",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 16,
-        "padding_bottom": 64
       }
     },
     "image_with_text_iyYwjb": {
@@ -360,18 +332,54 @@
         "collapsible_row_wAtfaE": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "3. How long will it take to see results?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Results vary, but many moms notice improvements in hair thickness and scalp health within a few weeks of regular use. For best results, we recommend using the comb 3-4 times a week.</p>",
             "page": ""
           }
         },
         "collapsible_row_qVNknW": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "4. Can I use MammaGlow™ with my favorite hair products?",
             "icon": "check_mark",
             "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_kCCmPR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "5. Is it suitable for sensitive scalps or thinning hair?",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_nHRBdD": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "6. Do I need to visit a salon for treatments?",
+            "icon": "check_mark",
+            "row_content": "<p>No need! MammaGlow™ brings professional-quality hair care to your home, making it perfect for busy moms who don’t have time for salon visits but still want effective care.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_9DNBhb": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "7. How much time do I need for each session?",
+            "icon": "check_mark",
+            "row_content": "<p>Each session only takes a few minutes, making it easy to fit into your daily routine. It’s quick, effortless, and effective!</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_YM3tqQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "8. What if I’m not satisfied with the product?",
+            "icon": "check_mark",
+            "row_content": "<p>We’re confident you’ll love MammaGlow™, but if for any reason you're not completely satisfied, we offer a hassle-free return policy to ensure your peace of mind.</p>",
             "page": ""
           }
         }
@@ -380,7 +388,11 @@
         "collapsible_row_HUgX3i",
         "collapsible_row_AHheXj",
         "collapsible_row_wAtfaE",
-        "collapsible_row_qVNknW"
+        "collapsible_row_qVNknW",
+        "collapsible_row_kCCmPR",
+        "collapsible_row_nHRBdD",
+        "collapsible_row_9DNBhb",
+        "collapsible_row_YM3tqQ"
       ],
       "settings": {
         "caption": "",
@@ -401,7 +413,6 @@
   "order": [
     "slideshow",
     "17278068135b072e4e",
-    "featured_collection",
     "image_with_text_iyYwjb",
     "image_with_text_jVYwcn",
     "image_with_text_67zmpq",
