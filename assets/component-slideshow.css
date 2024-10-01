@@ -39,7 +39,6 @@ slideshow-component .slideshow.banner {
   flex-direction: column;
   justify-content: center;
   max-width: 54.5rem;
-  max-height: 63rem !important;
 }
 
 .slideshow__text > * {
