@@ -114,8 +114,8 @@
             "itemBackgroundColor": "#ffffff",
             "starsColor": "",
             "starsBackgroundColor": "#ffffff",
-            "arrows_backgroundColor": "#FFFFFF",
-            "arrows_iconColor": "#9A9A9A",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
             "shadow": "offset-dark",
             "border_active": false,
             "border_width": 2,
@@ -129,6 +129,52 @@
       ],
       "settings": {
         "include_margins": true
+      }
+    },
+    "image_with_text_xmLd9g": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_dePJxX": {
+          "type": "heading",
+          "settings": {
+            "heading": "Restore, Relax, and Revitalize: The MammaGlow™ Transformation",
+            "heading_size": "h1"
+          }
+        },
+        "text_cUHefn": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>MammaGlow™</strong> is designed with busy moms in mind, offering a powerful, yet gentle solution for postpartum hair regrowth. Every feature is thoughtfully created to give your scalp the care it deserves, combining the best of modern technology with the nurturing touch every mom needs.</p><ul><li><strong>Revitalized Hair Growth: </strong>Stimulates follicles to reverse postpartum thinning.</li></ul><p></p><ul><li><strong>Effortless At-Home Self-Care: </strong>Quick, easy to use, and fits into any routine.<br/>Stress and Tension Relief: Melts away scalp tension with its soothing massage function.</li></ul><p></p><ul><li><strong>Boosted Confidence:</strong> See the difference and feel your confidence grow.</li></ul><p></p><ul><li><strong>Safe and Natural Solution: </strong>Chemical-free and dermatologically tested for peace of mind.</li></ul>",
+            "text_style": "body"
+          }
+        },
+        "button_fB7Qy7": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get MammaGlow™ Today and Start Your Transformation!",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_dePJxX",
+        "text_cUHefn",
+        "button_fB7Qy7"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "image_with_text_4qL9DV": {
@@ -169,7 +215,7 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
-        "section_color_scheme": "",
+        "section_color_scheme": "scheme-4",
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
@@ -182,6 +228,7 @@
     "main",
     "related-products",
     "1727810327fe562ed1",
+    "image_with_text_xmLd9g",
     "image_with_text_4qL9DV"
   ]
 }
