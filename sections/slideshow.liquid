@@ -16,7 +16,7 @@
 
     @media screen and (min-width: 750px) {
       #Slider-{{ section.id }}::before,
-      #Slider-{{ section.id }} .large::before {
+      #Slider-{{ section.id }} .media::before {
         padding-bottom: {{ 1 | divided_by: section.blocks.first.settings.image.aspect_ratio | times: 100 }}%;
         content: '';
         display: block;
@@ -108,7 +108,7 @@
     {%- for block in section.blocks -%}
       <style>
         #Slide-{{ section.id }}-{{ forloop.index }} .banner__media::after {
-          opacity: {{ block.settings.image_overlay_opacity | divided_by: 100.0 }};
+          opacity: {{ block.settings.image_overlay_opacity | divided_by: 150.0 }};
         }
       </style>
       <div
