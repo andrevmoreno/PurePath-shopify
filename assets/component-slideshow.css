@@ -32,7 +32,7 @@ slideshow-component .slideshow.banner {
   .slideshow--placeholder.banner--adapt_image {
     /* height: 56rem; */
     height: 80vh;
-    max-height: 1500px;
+    max-height: 1500px !important;
   }
 }
 
