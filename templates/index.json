@@ -251,6 +251,53 @@
         "padding_bottom": 8
       }
     },
+    "image_with_text_x98rGY": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_UrEd94": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Self-Care Made Easy</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_DmRmEX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Self-care shouldn’t be complicated. MammaGlow™ makes it simple and stress-free. Designed for busy moms, it allows you to nurture your hair and scalp in just a few minutes a day—without the need for salon visits. </p><p>Whether you're in need of relaxation, an energy boost, or calm before bed, <strong>MammaGlow™</strong> fits seamlessly into your routine.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_t7THyN": {
+          "type": "button",
+          "settings": {
+            "button_label": "ButtonTry MammaGlow™ Now!",
+            "button_link": "shopify://products/portable-3-mode-red-light-laser-electric-massage-comb",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_UrEd94",
+        "text_DmRmEX",
+        "button_t7THyN"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Screenshot_2024-09-30_at_11.23.26_PM.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "bottom",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
     "collage_8Kk8jB": {
       "type": "collage",
       "blocks": {
@@ -279,67 +326,12 @@
         "collection_qMctyn"
       ],
       "settings": {
-        "heading": "Multimedia collage",
+        "heading": "<strong>Postpartum Hair Loss? We Understand the Struggle</strong>",
         "heading_size": "h1",
         "desktop_layout": "left",
         "mobile_layout": "collage",
         "card_styles": "product-card-wrapper",
         "color_scheme": "scheme-4",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multirow_UwWwwi": {
-      "type": "multirow",
-      "blocks": {
-        "row_hKFBMR": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "row_bWRUJz": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "row_8D7Rkx": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "row_hKFBMR",
-        "row_bWRUJz",
-        "row_8D7Rkx"
-      ],
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -350,16 +342,16 @@
         "collapsible_row_HUgX3i": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "1. How does MammaGlow™ work?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>MammaGlow™ uses gentle infrared light therapy and a soothing scalp massage to stimulate hair follicles, promote natural hair regrowth, and relieve scalp tension. It's designed to help new moms recover from postpartum hair thinning, all while providing a calming self-care experience.</p>",
             "page": ""
           }
         },
         "collapsible_row_AHheXj": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "2. Is infrared light therapy safe?",
             "icon": "check_mark",
             "row_content": "",
             "page": ""
@@ -392,12 +384,12 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "Collapsible content",
+        "heading": "Curious About MammaGlow? We’ve Got You Covered",
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "none",
         "color_scheme": "",
-        "container_color_scheme": "",
+        "container_color_scheme": "scheme-1",
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
@@ -413,8 +405,8 @@
     "image_with_text_iyYwjb",
     "image_with_text_jVYwcn",
     "image_with_text_67zmpq",
+    "image_with_text_x98rGY",
     "collage_8Kk8jB",
-    "multirow_UwWwwi",
     "collapsible_content_7VrzHW"
   ]
 }
