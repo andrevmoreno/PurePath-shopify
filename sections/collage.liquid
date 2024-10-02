@@ -112,12 +112,22 @@
                 wrapper_class: section.settings.card_styles,
                 placeholder_image: placeholder_image
               %}
+              {% comment %}
               {% when 'rich_text' %}
                 <div class="collage-rich-text custom-rich-text">
                   <h2>{{ block.settings.title }}</h2>
                   <p>{{ block.settings.content }}</p>
                   <a href="{{ block.settings.link_url }}" class="rich-text-button">{{ block.settings.link_label }}</a>
                 </div>
+              {%  endcomment %}
+              {% when 'column' %}
+                <div class="collage-rich-text custom-rich-text">
+                  <h2>{{ block.settings.heading }}</h2>
+                  <p>{{ block.settings.content }}</p>
+                  {% if block.settings.link %}
+                    <a href="{{ block.settings.link }}" class="rich-text-button">{{ block.settings.link_label }}</a>
+                  {% endif %}
+                </div>              
             {%- when 'video' -%}
               <div class="collage-card {% if section.settings.card_styles == 'none' %}global-media-settings{% else %}{{ section.settings.card_styles }} color-{{ settings.card_color_scheme }} gradient{% endif %}">
                 <modal-opener data-modal="#PopupModal-{{ block.id }}">
@@ -358,20 +368,20 @@
       ]
     },
     {
-      "type": "column_text",
-      "name": "Column Text",
+      "type": "column",
+      "name": "Column",
       "settings": [
         {
           "type": "text",
-          "id": "title",
-          "label": "Title",
-          "default": "Column Title"
+          "id": "heading",
+          "label": "Heading",
+          "default": "Your Title Here"
         },
         {
-          "type": "richtext",
-          "id": "description",
-          "label": "Description",
-          "default": "Add a detailed description here."
+          "type": "text",
+          "id": "content",
+          "label": "Content",
+          "default": "Your content here..."
         },
         {
           "type": "text",
@@ -434,7 +444,7 @@
           "type": "image"
         },
         {
-          "type": "column_text"
+          "type": "column"
         },
         {
           "type": "collection"
