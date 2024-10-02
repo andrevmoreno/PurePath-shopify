@@ -291,17 +291,17 @@
             "image": "shopify://shop_images/mess-hair.png"
           }
         },
-        "product_KWE4yV": {
-          "type": "product",
+        "rich_text_6JBAAD": {
+          "type": "rich_text",
           "settings": {
-            "product": "",
-            "second_image": false
+            "title": "Your Title Here",
+            "content": "Your content here..."
           }
         }
       },
       "block_order": [
         "image_dTiM6N",
-        "product_KWE4yV"
+        "rich_text_6JBAAD"
       ],
       "settings": {
         "heading": "<strong>Postpartum Hair Loss? We Understand the Struggle</strong>",
