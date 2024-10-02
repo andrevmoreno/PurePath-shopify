@@ -45,6 +45,41 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "featured_logos_T77A6c": {
+      "type": "featured_logos",
+      "blocks": {
+        "logo_block_rAeqQF": {
+          "type": "logo_block",
+          "settings": {
+            "logo": "shopify://shop_images/icon-loreal.svg",
+            "logo_alt": "Logo Loreal",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          }
+        },
+        "logo_block_c4Jkfq": {
+          "type": "logo_block",
+          "settings": {
+            "logo_alt": "Logo Alt",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          }
+        },
+        "logo_block_aj3J3b": {
+          "type": "logo_block",
+          "settings": {
+            "logo_alt": "Logo Alt",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          }
+        }
+      },
+      "block_order": [
+        "logo_block_rAeqQF",
+        "logo_block_c4Jkfq",
+        "logo_block_aj3J3b"
+      ],
+      "settings": {
+        "title": "Featured by MammaGlow"
+      }
+    },
     "17278068135b072e4e": {
       "type": "apps",
       "blocks": {
@@ -412,6 +447,7 @@
   },
   "order": [
     "slideshow",
+    "featured_logos_T77A6c",
     "17278068135b072e4e",
     "image_with_text_iyYwjb",
     "image_with_text_jVYwcn",
