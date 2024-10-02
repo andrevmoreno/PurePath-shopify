@@ -41,14 +41,18 @@
   max-width: 205px;
 }
 
-/* Desktop: Estructura de 3 logos en columnas */
+/* Desktop*/
 @media screen and (min-width: 750px) {
   .featured-logos-section {
     margin: 0 60px;
   }
+  .featured-logos__item {
+    text-align: center;
+  }
   .featured-logos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
     gap: 30px;
   }
 
