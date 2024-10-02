@@ -246,6 +246,67 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "collapsible_content_axw8Ta": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_P6ymGy": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_DndxER": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_GbmUfa": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_JnfTyx": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_P6ymGy",
+        "collapsible_row_DndxER",
+        "collapsible_row_GbmUfa",
+        "collapsible_row_JnfTyx"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Collapsible content",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -254,6 +315,7 @@
     "1727810327fe562ed1",
     "image_with_text_xmLd9g",
     "image_with_text_4qL9DV",
-    "1727909974a83720ca"
+    "1727909974a83720ca",
+    "collapsible_content_axw8Ta"
   ]
 }
