@@ -1,16 +1,21 @@
 {{ 'featured-logos.css' | asset_url | stylesheet_tag }}
 
 <div class="featured-logos-section">
-    <h2 class="featured-logos-section__title">{{ section.settings.title }}</h2>
-    <div class="featured-logos">
-        {% for block in section.blocks %}
-            <div class="featured-logos__item">
-              {%  comment %}  <img src="{{ 'icon-' | append: block.settings.logo_fixed | asset_url }}" alt="{{ block.settings.logo_alt }}" width="100%" height="auto"> */ {% endcomment %}
-              <img src="{{ 'icon-loreal.svg' | asset_url }}" alt="{{ block.settings.logo_alt }}" class="featured-logos__logo" width="179px" height="59px">
-              <p class="featured-logos__text">{{ block.settings.text }}</p>
-            </div>
-        {% endfor %}
+  <h2 class="featured-logos-section__title">{{ section.settings.title }}</h2>
+  <div class="featured-logos">
+    <div class="featured-logos__item">
+      <img src="{{ 'icon-loreal.svg' | asset_url }}" alt="{{ section.settings.logo1_alt }}" width="179" height="59" />
+      <p class="featured-logos__text">{{ section.settings.logo1_text }}</p>
     </div>
+    <div class="featured-logos__item">
+      <img src="{{ 'icon-hairStudio.svg' | asset_url }}" alt="{{ section.settings.logo2_alt }}" width="161" height="58" />
+      <p class="featured-logos__text">{{ section.settings.logo2_text }}</p>
+    </div>
+    <div class="featured-logos__item">
+      <img src="{{ 'icon-prenatal.svg' | asset_url }}" alt="{{ section.settings.logo3_alt }}" width="163" height="59" />
+      <p class="featured-logos__text">{{ section.settings.logo3_text }}</p>
+    </div>
+  </div>
 </div>
 
 {% schema %}
@@ -22,63 +27,48 @@
       "id": "title",
       "label": "Section Title",
       "default": "Featured by MammaGlow"
-    }
-  ],
-  "blocks": [
+    },
     {
-      "type": "logo_block",
-      "name": "Logo y Texto",
-      "settings": [
-        {
-          "type": "select",
-          "id": "logo_fixed",
-          "label": "Logo",
-          "options": [
-            {
-              "value": "loreal",
-              "label": "L'OREAL"
-            },
-            {
-              "value": "hairStudio",
-              "label": "Hair Studio"
-            },
-            {
-              "value": "prenatal",
-              "label": "Prénatal"
-            }
-          ],
-          "default": "loreal"
-        },
-        {
-          "type": "text",
-          "id": "logo_alt",
-          "label": "Texto alternativo del logo",
-          "default": "Logo Alt"
-        },
-        {
-          "type": "textarea",
-          "id": "text",
-          "label": "Texto debajo del logo",
-          "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        }
-      ]
+      "type": "text",
+      "id": "logo1_alt",
+      "label": "Alt text for Logo 1",
+      "default": "Logo Loreal"
+    },
+    {
+      "type": "textarea",
+      "id": "logo1_text",
+      "label": "Text below Logo 1",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "type": "text",
+      "id": "logo2_alt",
+      "label": "Alt text for Logo 2",
+      "default": "Logo Hair Studio"
+    },
+    {
+      "type": "textarea",
+      "id": "logo2_text",
+      "label": "Text below Logo 2",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "type": "text",
+      "id": "logo3_alt",
+      "label": "Alt text for Logo 3",
+      "default": "Logo Prenatal"
+    },
+    {
+      "type": "textarea",
+      "id": "logo3_text",
+      "label": "Text below Logo 3",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     }
   ],
   "presets": [
     {
       "name": "Featured Logos",
-      "category": "Logos",
-      "blocks": [
-        {
-          "type": "logo_block"
-        },
-        {
-          "type": "logo_block"
-        },
-        {
-          "type": "logo_block"
-        }
-      ]
+      "category": "Logos"
     }
   ]
 }
