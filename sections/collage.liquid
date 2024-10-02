@@ -16,22 +16,17 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
-
-  .collage_richtext {
+  
+  .richtext-icon-block {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    text-align: center;
+    margin-bottom: 16px;
   }
 
-  .collage__icon {
-    margin-bottom: 10px;
-  }
-
-  .collage__text {
-    font-size: 1rem;
-    line-height: 1.5;
+  .richtext-icon-block img {
+    margin-right: 10px;
+    width: 32px;
+    height: 32px;
   }
 {%- endstyle -%}
 
@@ -54,19 +49,34 @@
         >
           {%- case block.type -%}
             {%- when 'image' -%}
-              <!-- Imagen Bloque -->
-              <div class="collage-card card-wrapper {{ section.settings.card_styles }} color-{{ settings.card_color_scheme }} gradient">
-                <div class="media media--transparent ratio" style="--ratio-percent: {{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%">
-                  {{ block.settings.image | image_url: width: 3200 | image_tag: sizes: "3200w", widths: '3200' }}
+              <div class="collage-card {% if section.settings.card_styles == 'none' %}global-media-settings{% else %}card-wrapper {{ section.settings.card_styles }} color-{{ settings.card_color_scheme }} gradient{% endif %}">
+                <div
+                  class="media media--transparent ratio"
+                  {% if block.settings.image != blank %}
+                    style="--ratio-percent: {{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%"
+                  {% else %}
+                    style="--ratio-percent: 100%"
+                  {% endif %}
+                >
+                  {%- if block.settings.image != blank -%}
+                    {{
+                      block.settings.image
+                      | image_url: width: 3200
+                      | image_tag: sizes: '100vw', widths: '3200'
+                    }}
+                  {%- else -%}
+                    {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                  {%- endif -%}
                 </div>
               </div>
             {%- when 'richtext_with_icon' -%}
-              <!-- Bloque de icono con texto -->
-              <div class="collage_richtext collage-card card-wrapper {{ section.settings.card_styles }} color-{{ settings.card_color_scheme }} gradient">
-                <div class="collage__icon">
-                  <img src="{{ block.settings.icon | image_url: 'small' }}" alt="{{ block.settings.icon_alt }}" width= "100%" height= "auto"/>
+              <div class="collage-card card-wrapper color-{{ settings.card_color_scheme }} gradient">
+                <div class="collage__richtext">
+                  <div class="richtext-icon-block">
+                    <img src="{{ block.settings.icon | image_url: 'small' }}" alt="{{ block.settings.icon_alt }}" class="collage__icon" width="28px" height="28px">
+                    <p>{{ block.settings.rich_text }}</p>
+                  </div>
                 </div>
-                <p class="collage__text">{{ block.settings.rich_text }}</p>
               </div>
           {%- endcase -%}
         </div>
@@ -74,6 +84,7 @@
     </div>
   </div>
 </div>
+
 
 {% schema %}
 {
