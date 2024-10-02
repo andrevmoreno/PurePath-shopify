@@ -296,6 +296,15 @@
           "settings": {
             "heading": "Struggling with the Effects of Postpartum Hair Loss?",
             "content": "After your baby’s arrival, hormonal changes can lead to thinning hair—just when you need to feel your best. It’s frustrating to see your hair suffer during such a beautiful but challenging time.",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_mBiend": {
+          "type": "column",
+          "settings": {
+            "heading": "Your Title Here",
+            "content": "Your content here...",
             "link_label": "Learn More",
             "link": ""
           }
@@ -303,7 +312,8 @@
       },
       "block_order": [
         "image_dTiM6N",
-        "column_MkRgQw"
+        "column_MkRgQw",
+        "column_mBiend"
       ],
       "settings": {
         "heading": "<strong>Postpartum Hair Loss? We Understand the Struggle</strong>",
