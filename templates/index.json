@@ -68,7 +68,7 @@
             "itemsPerView": 4,
             "mobileItemsPerView": 1,
             "maxNumberOfCharacters": 100,
-            "imageRatio": "0.72",
+            "imageRatio": "1.25",
             "reviewerNameColor": "#000000",
             "textColor": "#000000",
             "itemBackgroundColor": "#ffffff",
@@ -76,11 +76,11 @@
             "starsBackgroundColor": "#ffffff",
             "arrows_backgroundColor": "#ffffff",
             "arrows_iconColor": "#9a9a9a",
-            "shadow": "offset-dark",
+            "shadow": "offset-light",
             "border_active": false,
             "border_width": 2,
             "border_color": "#000000",
-            "productIds": ""
+            "productIds": "portable-3-mode-red-light-laser-electric-massage-comb"
           }
         }
       },
