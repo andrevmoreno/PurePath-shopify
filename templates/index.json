@@ -51,7 +51,7 @@
         "logo_block_rAeqQF": {
           "type": "logo_block",
           "settings": {
-            "logo": "shopify://shop_images/icon-loreal.svg",
+            "logo_image": "shopify://shop_images/MammaGlow-Comb-logo-favicon.png",
             "logo_alt": "Logo Loreal",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           }
@@ -59,6 +59,7 @@
         "logo_block_c4Jkfq": {
           "type": "logo_block",
           "settings": {
+            "logo_image": "shopify://shop_images/model-laughs-barefoot.jpg",
             "logo_alt": "Logo Alt",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           }
