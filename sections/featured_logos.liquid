@@ -1,0 +1,72 @@
+{{ 'featured-logos.css' | asset_url | stylesheet_tag }}
+
+<div class="featured-logos-section">
+    <h2 class="featured-logos-section__title">{{ section.settings.title }}</h2>
+        <div class="featured-logos">
+            {% for block in section.blocks %}
+        <div class="featured-logos__item">
+            {% if block.settings.logo != blank %}
+            <img src="{{ block.settings.logo | image_url: 'master' }}" alt="{{ block.settings.logo_alt }}" class="featured-logos__logo" width="100%" height="auto">
+            {% endif %}
+            <p class="featured-logos__text">{{ block.settings.text }}</p>
+         </div>
+        {%  endfor %}
+     </div>
+</div>
+
+{% schema %}
+{
+  "name": "Featured Logos",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Título de la sección",
+      "default": "Featured by MammaGlow"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "logo_block",
+      "name": "Logo y Texto",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "logo",
+          "label": "Logo",
+          "info": "Elige la imagen del logo"
+        },
+        {
+          "type": "text",
+          "id": "logo_alt",
+          "label": "Texto alternativo del logo",
+          "default": "Logo Alt"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Texto debajo del logo",
+          "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Featured Logos",
+      "category": "Logos",
+      "blocks": [
+        {
+          "type": "logo_block"
+        },
+        {
+          "type": "logo_block"
+        },
+        {
+          "type": "logo_block"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
