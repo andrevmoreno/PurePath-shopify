@@ -225,72 +225,6 @@
         "padding_bottom": 36
       }
     },
-    "17279095858db95314": {
-      "type": "apps",
-      "blocks": {
-        "loox_reviews_loox_testimonial_carousel_section_7URzB9": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-testimonial-carousel-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "maxWidth": 1100,
-            "desktopFontSize": 32,
-            "mobileFontSize": 20,
-            "maxNumberOfCharacters": 100,
-            "quoteMarkIcon": "style-1",
-            "reviewerNameColor": "#000000",
-            "textColor": "#000000",
-            "starsColor": "",
-            "quotesIconColor": "#EAEAEA",
-            "arrows_iconColor": "#000000",
-            "arrows_hideOnMobile": true,
-            "pagination_active": true,
-            "pagination_selectedDotColor": "#000000",
-            "pagination_dotColor": "#000000",
-            "autoplay_active": false,
-            "autoplay_duration": 2,
-            "productIds": ""
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_testimonial_carousel_section_7URzB9"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "1727909952291dee95": {
-      "type": "apps",
-      "blocks": {
-        "loox_reviews_loox_snippets_widget_D3GzRW": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-snippets-widget/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "alignment": "left",
-            "max-width": "",
-            "color-scheme": "default",
-            "shadow": "",
-            "show-rating": true,
-            "show-image": true,
-            "hide-arrows-mobile": false,
-            "font-size": 14,
-            "show-border": false,
-            "border-radius": 16,
-            "background-color": "",
-            "text-color": "",
-            "name-color": "",
-            "rating-icon-color": "",
-            "border-color": "",
-            "shadow-color": "",
-            "reviews-limit": 10
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_snippets_widget_D3GzRW"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "1727909974a83720ca": {
       "type": "apps",
       "blocks": {
@@ -320,8 +254,6 @@
     "1727810327fe562ed1",
     "image_with_text_xmLd9g",
     "image_with_text_4qL9DV",
-    "17279095858db95314",
-    "1727909952291dee95",
     "1727909974a83720ca"
   ]
 }
