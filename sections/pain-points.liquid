@@ -1,0 +1,98 @@
+{{ 'collage.css' | asset_url | stylesheet_tag }}
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'section-pain-points.css' | asset_url | stylesheet_tag }}
+
+<div class="pain-points-section">
+  <div class="pain-points-container">
+    <div class="pain-points__image">
+      {%- if section.settings.image != blank -%}
+        <img src="{{ section.settings.image | image_url: 'master' }}" alt="{{ section.settings.image_alt }}" width= "100%" height= "auto" />
+    {%- endif -%}
+    </div>
+
+    <div class="pain-points__content">
+      <h2 class="pain-points__heading">{{ section.settings.heading }}</h2>
+      <div class="pain-points__items">
+        {%- for block in section.blocks -%}
+          <div class="pain-points__item">
+            <div class="pain-points__icon">
+              <img src="{{ block.settings.icon | image_url: 'small' }}" alt="{{ block.settings.icon_alt }}"  width= "100%" height= "auto">
+            </div>
+            <div class="pain-points__text">
+              <p>{{ block.settings.rich_text }}</p>
+            </div>
+          </div>
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Pain Points",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image",
+      "info": "Upload the main image for this section"
+    },
+    {
+      "type": "text",
+      "id": "image_alt",
+      "label": "Image Alt Text",
+      "default": "Pain Points Image"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Section Heading",
+      "default": "Pain Points"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text_with_icon",
+      "name": "Text with Icon",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icon Image",
+          "info": "Upload an icon for this text"
+        },
+        {
+          "type": "text",
+          "id": "icon_alt",
+          "label": "Icon Alt Text",
+          "default": "Icon Alt"
+        },
+        {
+          "type": "richtext",
+          "id": "rich_text",
+          "label": "Rich Text",
+          "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Pain Points",
+      "category": "Custom",
+      "blocks": [
+        {
+          "type": "text_with_icon"
+        },
+        {
+          "type": "text_with_icon"
+        },
+        {
+          "type": "text_with_icon"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
