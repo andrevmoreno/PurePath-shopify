@@ -1509,13 +1509,13 @@
     ]
   },
   {
-    "name": "Pain Points Settings",
-    "settings": [
+    "name": "Pain Points",
+    "category": "Custom",
+    "settings": [],
+    "blocks": [],
+    "presets": [
       {
-        "type": "checkbox",
-        "id": "show_pain_points",
-        "label": "Show Pain Points Section",
-        "default": true
+        "name": "Pain Points"
       }
     ]
   }
