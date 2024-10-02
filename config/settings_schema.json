@@ -1509,12 +1509,12 @@
     ]
   },
   {
-    "name": "Featured Logos Settings",
+    "name": "Pain Points Settings",
     "settings": [
       {
         "type": "checkbox",
-        "id": "show_featured_logos",
-        "label": "Show Featured Logos Section",
+        "id": "show_pain_points",
+        "label": "Show Pain Points Section",
         "default": true
       }
     ]
