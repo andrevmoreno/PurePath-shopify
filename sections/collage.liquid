@@ -3,7 +3,7 @@
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
 {{ 'component-modal-video.css' | asset_url | stylesheet_tag }}
 {{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
-{{ 'section-rich-text.css' }}
+{{ 'section-rich-text.css' | asset_url | stylesheet_tag}}
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -358,20 +358,31 @@
       ]
     },
     {
-      "type": "rich_text",
-      "name": "Rich Text Block",
+      "type": "column_text",
+      "name": "Column Text",
       "settings": [
         {
           "type": "text",
           "id": "title",
           "label": "Title",
-          "default": "Your Title Here"
+          "default": "Column Title"
         },
         {
-          "type": "textarea",
-          "id": "content",
-          "label": "Content",
-          "default": "Your content here..."
+          "type": "richtext",
+          "id": "description",
+          "label": "Description",
+          "default": "Add a detailed description here."
+        },
+        {
+          "type": "text",
+          "id": "link_label",
+          "label": "Link Label",
+          "default": "Learn More"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
         }
       ]
     },
@@ -414,7 +425,7 @@
       ]
     }
   ],
-  "max_blocks": 4,
+  "max_blocks": 3,
   "presets": [
     {
       "name": "t:sections.collage.presets.name",
@@ -423,7 +434,7 @@
           "type": "image"
         },
         {
-          "type": "rich_text"
+          "type": "column_text"
         },
         {
           "type": "collection"
