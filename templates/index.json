@@ -50,11 +50,11 @@
       "settings": {
         "title": "Featured by MammaGlow",
         "logo1_alt": "Logo Loreal",
-        "logo1_text": "MammaGlow™ harnesses the gentle power of 630nm infrared light to naturally boost hair regrowth and revitalize your scalp.",
+        "logo1_text": "\"MammaGlow™ stands out for its gentle care and real hair regrowth results\"",
         "logo2_alt": "Logo Hair Studio",
-        "logo2_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "logo2_text": "“Clients love MammaGlow™ for its soothing massages and the visible results in hair regrowth”",
         "logo3_alt": "Logo Prenatal",
-        "logo3_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "logo3_text": "\"MammaGlow™ is an effective solution for new moms, offering essential support for postpartum hair recovery\""
       }
     },
     "17278068135b072e4e": {
@@ -68,7 +68,7 @@
             "itemsPerView": 4,
             "mobileItemsPerView": 1,
             "maxNumberOfCharacters": 100,
-            "imageRatio": "0.72",
+            "imageRatio": "1.25",
             "reviewerNameColor": "#000000",
             "textColor": "#000000",
             "itemBackgroundColor": "#ffffff",
@@ -76,11 +76,11 @@
             "starsBackgroundColor": "#ffffff",
             "arrows_backgroundColor": "#ffffff",
             "arrows_iconColor": "#9a9a9a",
-            "shadow": "offset-dark",
+            "shadow": "offset-light",
             "border_active": false,
             "border_width": 2,
             "border_color": "#000000",
-            "productIds": ""
+            "productIds": "portable-3-mode-red-light-laser-electric-massage-comb"
           }
         }
       },
