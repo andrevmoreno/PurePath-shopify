@@ -36,8 +36,9 @@
 }
 
 .featured-logos__text {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #5e6069;
+  max-width: 205px;
 }
 
 /* Desktop: Estructura de 3 logos en columnas */
