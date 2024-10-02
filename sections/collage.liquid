@@ -98,7 +98,7 @@
     {
       "type": "inline_richtext",
       "id": "heading",
-      "default": "Section Heading",
+      "default": "Collage Section Heading",
       "label": "Heading"
     },
     {
@@ -107,23 +107,23 @@
       "options": [
         {
           "value": "h2",
-          "label": "Small"
+          "label": "Medium (h2)"
         },
         {
           "value": "h1",
-          "label": "Medium"
+          "label": "Large (h1)"
         },
         {
           "value": "h0",
-          "label": "Large"
+          "label": "Extra Large (h0)"
         },
         {
           "value": "hxl",
-          "label": "Extra Large"
+          "label": "Huge (hxl)"
         },
         {
           "value": "hxxl",
-          "label": "XXL"
+          "label": "Extra Huge (hxxl)"
         }
       ],
       "default": "h1",
@@ -135,11 +135,11 @@
       "options": [
         {
           "value": "left",
-          "label": "Left"
+          "label": "Left Layout"
         },
         {
           "value": "right",
-          "label": "Right"
+          "label": "Right Layout"
         }
       ],
       "default": "left",
@@ -167,7 +167,7 @@
       "options": [
         {
           "value": "none",
-          "label": "None"
+          "label": "No Card Style"
         },
         {
           "value": "product-card-wrapper",
@@ -185,7 +185,7 @@
     },
     {
       "type": "header",
-      "content": "Section Padding"
+      "content": "Padding Settings"
     },
     {
       "type": "range",
@@ -211,18 +211,18 @@
   "blocks": [
     {
       "type": "image",
-      "name": "Image",
+      "name": "Image Block",
       "settings": [
         {
           "type": "image_picker",
           "id": "image",
-          "label": "Image"
+          "label": "Select Image"
         }
       ]
     },
     {
       "type": "richtext_with_icon",
-      "name": "Text with Icon",
+      "name": "Rich Text with Icon",
       "settings": [
         {
           "type": "image_picker",
@@ -233,48 +233,24 @@
           "type": "text",
           "id": "icon_alt",
           "label": "Icon Alt Text",
-          "default": "Icon Alt"
+          "default": "Icon Alt Text"
         },
         {
           "type": "richtext",
           "id": "rich_text",
           "label": "Rich Text",
-          "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          "default": "This is a rich text block with an icon."
         }
       ]
     },
     {
       "type": "collection",
-      "name": "Collection",
+      "name": "Collection Block",
       "settings": [
         {
           "type": "collection",
           "id": "collection",
-          "label": "Collection"
-        }
-      ]
-    },
-    {
-      "type": "video",
-      "name": "Video",
-      "settings": [
-        {
-          "type": "image_picker",
-          "id": "cover_image",
-          "label": "Cover Image"
-        },
-        {
-          "type": "video_url",
-          "id": "video_url",
-          "accept": ["youtube", "vimeo"],
-          "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-          "label": "Video URL"
-        },
-        {
-          "type": "text",
-          "id": "description",
-          "label": "Description",
-          "default": "Video description"
+          "label": "Select Collection"
         }
       ]
     }
@@ -282,7 +258,7 @@
   "max_blocks": 3,
   "presets": [
     {
-      "name": "Default Collage",
+      "name": "Collage with Rich Text",
       "blocks": [
         {
           "type": "image"
@@ -291,10 +267,11 @@
           "type": "richtext_with_icon"
         },
         {
-          "type": "collection"
+          "type": "richtext_with_icon"
         }
       ]
     }
   ]
 }
+
 {% endschema %}
