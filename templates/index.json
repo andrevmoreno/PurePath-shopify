@@ -47,36 +47,14 @@
     },
     "featured_logos_T77A6c": {
       "type": "featured_logos",
-      "blocks": {
-        "logo_block_rAeqQF": {
-          "type": "logo_block",
-          "settings": {
-            "logo_alt": "Logo Loreal",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-          }
-        },
-        "logo_block_aj3J3b": {
-          "type": "logo_block",
-          "settings": {
-            "logo_alt": "Logo Alt",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-          }
-        },
-        "logo_block_z9XVjF": {
-          "type": "logo_block",
-          "settings": {
-            "logo_alt": "Logo Alt",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-          }
-        }
-      },
-      "block_order": [
-        "logo_block_rAeqQF",
-        "logo_block_aj3J3b",
-        "logo_block_z9XVjF"
-      ],
       "settings": {
-        "title": "Featured by MammaGlow"
+        "title": "Featured by MammaGlow",
+        "logo1_alt": "Logo Loreal",
+        "logo1_text": "MammaGlow™ harnesses the gentle power of 630nm infrared light to naturally boost hair regrowth and revitalize your scalp.",
+        "logo2_alt": "Logo Hair Studio",
+        "logo2_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "logo3_alt": "Logo Prenatal",
+        "logo3_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       }
     },
     "17278068135b072e4e": {
@@ -277,7 +255,7 @@
         "button_t7THyN": {
           "type": "button",
           "settings": {
-            "button_label": "ButtonTry MammaGlow™ Now!",
+            "button_label": "Try MammaGlow™ Now!",
             "button_link": "shopify://products/portable-3-mode-red-light-laser-electric-massage-comb",
             "button_style_secondary": false
           }
