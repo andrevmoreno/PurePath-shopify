@@ -1,4 +1,4 @@
-@keyframes scrollTitle {
+/*@keyframes scrollTitle {
   0% {
     transform: translateX(0%);
   }
@@ -27,5 +27,61 @@
 @media screen and (max-width: 749px) {
   .pain-points-heading {
     animation: none;
+  }
+}
+*/
+.pain-points-section {
+  padding: 40px 20px;
+  background-color: #f7f9fd;
+}
+
+.pain-points-heading {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.pain-points-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.pain-points__image img {
+  width: 100%;
+  height: auto;
+}
+
+.pain-points__items {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.pain-points__item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.pain-points__icon img {
+  width: 40px;
+  height: auto;
+}
+
+.pain-points__text {
+  font-size: 1rem;
+  color: #5e6069;
+}
+
+/* Desktop */
+@media screen and (min-width: 750px) {
+  .pain-points-container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .pain-points__items {
+    flex-direction: column;
   }
 }

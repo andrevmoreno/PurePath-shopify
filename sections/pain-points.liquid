@@ -6,17 +6,17 @@
   <div class="pain-points-container">
     <div class="pain-points__image">
       {%- if section.settings.image != blank -%}
-        <img src="{{ section.settings.image | image_url: 'master' }}" alt="{{ section.settings.image_alt }}" width= "100%" height= "auto" />
-    {%- endif -%}
+        <img src="{{ section.settings.image | image_url: 'master' }}" alt="{{ section.settings.image_alt }}"  width= "100%" height= "auto"/>
+      {%- endif -%}
     </div>
 
     <div class="pain-points__content">
-        <h2 class="pain-points-heading">{{ section.settings.heading }}</h2>
-        <div class="pain-points__items">
+      <h2 class="pain-points-heading">{{ section.settings.heading }}</h2>
+      <div class="pain-points__items">
         {%- for block in section.blocks -%}
           <div class="pain-points__item">
             <div class="pain-points__icon">
-              <img src="{{ block.settings.icon | image_url: 'small' }}" alt="{{ block.settings.icon_alt }}"  width= "100%" height= "auto">
+              <img src="{{ block.settings.icon | image_url: 'small' }}" alt="{{ block.settings.icon_alt }}" width= "100%" height= "auto">
             </div>
             <div class="pain-points__text">
               <p>{{ block.settings.rich_text }}</p>
