@@ -6,14 +6,15 @@
             {% for block in section.blocks %}
         <div class="featured-logos__item">
             {% if block.settings.logo != blank %}
-            <img src="{{ block.settings.logo | image_url: 'master' }}" alt="{{ block.settings.logo_alt }}" class="featured-logos__logo" width="100%" height="auto">
+                <img src="{{ block.settings.logo_image | image_url: 'medium' }}" alt="{{ block.settings.logo_alt }}"width="100%" height="auto">
+
+          {% comment %}  <img src="{{ block.settings.logo | image_url: 'master' }}" alt="{{ block.settings.logo_alt }}" class="featured-logos__logo" width="100%" height="auto">{% endcomment %}
             {% endif %}
             <p class="featured-logos__text">{{ block.settings.text }}</p>
          </div>
         {%  endfor %}
      </div>
 </div>
-
 {% schema %}
 {
   "name": "Featured Logos",
@@ -21,7 +22,7 @@
     {
       "type": "text",
       "id": "title",
-      "label": "Título de la sección",
+      "label": "Section Title",
       "default": "Featured by MammaGlow"
     }
   ],
@@ -32,7 +33,7 @@
       "settings": [
         {
           "type": "image_picker",
-          "id": "logo",
+          "id": "logo_image",
           "label": "Logo",
           "info": "Elige la imagen del logo"
         },

@@ -1478,7 +1478,7 @@
     ],
     "blocks": [
       {
-        "type": "logo",
+        "type": "logo_block",
         "name": "Logo Block",
         "settings": [
           {
@@ -1488,7 +1488,13 @@
           },
           {
             "type": "text",
-            "id": "logo_text",
+            "id": "logo_alt",
+            "label": "Logo Alt Text",
+            "default": "Logo Alt"
+          },
+          {
+            "type": "textarea",
+            "id": "text",
             "label": "Text Below Logo",
             "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           }

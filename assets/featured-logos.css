@@ -5,7 +5,7 @@
 }
 
 .featured-logos-section__title {
-  font-size: var(--font-heading-scale);
+  font-weight: var(--font-heading-weight);
   color: #5e6069;
   margin-bottom: 20px;
 }
