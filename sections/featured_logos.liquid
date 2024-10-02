@@ -2,19 +2,18 @@
 
 <div class="featured-logos-section">
     <h2 class="featured-logos-section__title">{{ section.settings.title }}</h2>
-        <div class="featured-logos">
-            {% for block in section.blocks %}
-        <div class="featured-logos__item">
-            {% if block.settings.logo != blank %}
-                <img src="{{ block.settings.logo_image | image_url: 'medium' }}" alt="{{ block.settings.logo_alt }}"width="100%" height="auto">
-
-          {% comment %}  <img src="{{ block.settings.logo | image_url: 'master' }}" alt="{{ block.settings.logo_alt }}" class="featured-logos__logo" width="100%" height="auto">{% endcomment %}
-            {% endif %}
-            <p class="featured-logos__text">{{ block.settings.text }}</p>
-         </div>
-        {%  endfor %}
-     </div>
+    <div class="featured-logos">
+        {% for block in section.blocks %}
+            <div class="featured-logos__item">
+                {% if block.settings.logo_image != blank %}
+                    <img src="{{ block.settings.logo_image | image_url: 'medium' }}" alt="{{ block.settings.logo_alt }}" width="100%" height="auto" class="featured-logos__logo">
+                {% endif %}
+                <p class="featured-logos__text">{{ block.settings.text }}</p>
+            </div>
+        {% endfor %}
+    </div>
 </div>
+
 {% schema %}
 {
   "name": "Featured Logos",
