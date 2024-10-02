@@ -1507,5 +1507,16 @@
         "category": "Custom"
       }
     ]
+  },
+  {
+    "name": "Featured Logos Settings",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "show_featured_logos",
+        "label": "Show Featured Logos Section",
+        "default": true
+      }
+    ]
   }
 ]
