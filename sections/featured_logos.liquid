@@ -5,8 +5,9 @@
     <div class="featured-logos">
         {% for block in section.blocks %}
             <div class="featured-logos__item">
-                <img src="{{ 'icon-' | append: block.settings.logo_fixed | asset_url }}" alt="{{ block.settings.logo_alt }}" width="100%" height="auto">
-                <p class="featured-logos__text">{{ block.settings.text }}</p>
+              {%  comment %}  <img src="{{ 'icon-' | append: block.settings.logo_fixed | asset_url }}" alt="{{ block.settings.logo_alt }}" width="100%" height="auto"> */ {% endcomment %}
+              <img src="{{ 'icon-loreal.svg' | asset_url }}" alt="{{ block.settings.logo_alt }}" class="featured-logos__logo" width="179px" height="59px">
+              <p class="featured-logos__text">{{ block.settings.text }}</p>
             </div>
         {% endfor %}
     </div>
