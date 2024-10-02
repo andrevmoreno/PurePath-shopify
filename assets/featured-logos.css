@@ -35,3 +35,25 @@
   font-size: 0.875rem;
   color: #4a4a4a;
 }
+@media screen and (min-width: 750px) {
+  .featured-logos-section {
+    padding: 40px 20px;
+  }
+
+  .featured-logos {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+  }
+
+  .featured-logos-section__title {
+    font-size: 3rem;
+  }
+
+  .featured-logos__logo {
+    max-width: 150px;
+  }
+
+  .featured-logos__text {
+    font-size: 1rem;
+  }
+}

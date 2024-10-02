@@ -1465,5 +1465,41 @@
         "default": "scheme-1"
       }
     ]
+  },
+  {
+    "name": "Featured Logos Section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Section Title",
+        "default": "Featured by MammaGlow"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "logo",
+        "name": "Logo Block",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "logo_image",
+            "label": "Logo Image"
+          },
+          {
+            "type": "text",
+            "id": "logo_text",
+            "label": "Text Below Logo",
+            "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Featured Logos",
+        "category": "Custom"
+      }
+    ]
   }
 ]
