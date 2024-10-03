@@ -12,15 +12,13 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
+          "settings": {
+          }
+        },
+        "rating_fMBmdg": {
+          "type": "rating",
           "settings": {
           }
         },
@@ -55,8 +53,8 @@
         }
       },
       "block_order": [
-        "vendor",
         "title",
+        "rating_fMBmdg",
         "price",
         "variant_picker",
         "quantity_selector",
@@ -127,6 +125,9 @@
       },
       "block_order": [
         "loox_reviews_loox_card_carousel_section_ig34bY"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
         "include_margins": true
