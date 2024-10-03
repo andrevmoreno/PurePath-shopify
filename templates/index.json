@@ -358,8 +358,7 @@
           "settings": {
             "heading": "1. How does MammaGlow™ work?",
             "icon": "check_mark",
-            "row_content": "<p>MammaGlow™ uses gentle infrared light therapy and a soothing scalp massage to stimulate hair follicles, promote natural hair regrowth, and relieve scalp tension. It's designed to help new moms recover from postpartum hair thinning, all while providing a calming self-care experience.</p>",
-            "page": ""
+            "row_content": "<p>MammaGlow™ uses gentle infrared light therapy and a soothing scalp massage to stimulate hair follicles, promote natural hair regrowth, and relieve scalp tension. It's designed to help new moms recover from postpartum hair thinning, all while providing a calming self-care experience.</p>"
           }
         },
         "collapsible_row_AHheXj": {
@@ -367,8 +366,7 @@
           "settings": {
             "heading": "2. Is infrared light therapy safe?",
             "icon": "check_mark",
-            "row_content": "",
-            "page": ""
+            "row_content": "<p>Yes! The <strong>630nm infrared light</strong> used by MammaGlow™ is dermatologically tested and completely safe. It’s non-invasive and gentle on the scalp, so you can trust it’s effective without any harsh chemicals.</p>"
           }
         },
         "collapsible_row_wAtfaE": {
@@ -376,8 +374,7 @@
           "settings": {
             "heading": "3. How long will it take to see results?",
             "icon": "check_mark",
-            "row_content": "<p>Results vary, but many moms notice improvements in hair thickness and scalp health within a few weeks of regular use. For best results, we recommend using the comb 3-4 times a week.</p>",
-            "page": ""
+            "row_content": "<p>Results vary, but many moms notice improvements in hair thickness and scalp health within a few weeks of regular use. For best results, we recommend using the comb 3-4 times a week.</p>"
           }
         },
         "collapsible_row_qVNknW": {
@@ -385,8 +382,7 @@
           "settings": {
             "heading": "4. Can I use MammaGlow™ with my favorite hair products?",
             "icon": "check_mark",
-            "row_content": "",
-            "page": ""
+            "row_content": "<p>Absolutely! MammaGlow™ is designed to complement your hair care routine. It enhances the absorption of your favorite hair care products, ensuring you get even better results.</p>"
           }
         },
         "collapsible_row_kCCmPR": {
@@ -394,8 +390,7 @@
           "settings": {
             "heading": "5. Is it suitable for sensitive scalps or thinning hair?",
             "icon": "check_mark",
-            "row_content": "",
-            "page": ""
+            "row_content": "<p>Yes, MammaGlow™ is designed with sensitive scalps in mind. The gentle infrared light and massage action are perfect for postpartum hair care, without causing further irritation.</p>"
           }
         },
         "collapsible_row_nHRBdD": {
@@ -403,8 +398,7 @@
           "settings": {
             "heading": "6. Do I need to visit a salon for treatments?",
             "icon": "check_mark",
-            "row_content": "<p>No need! MammaGlow™ brings professional-quality hair care to your home, making it perfect for busy moms who don’t have time for salon visits but still want effective care.</p>",
-            "page": ""
+            "row_content": "<p>No need! MammaGlow™ brings professional-quality hair care to your home, making it perfect for busy moms who don’t have time for salon visits but still want effective care.</p>"
           }
         },
         "collapsible_row_9DNBhb": {
@@ -412,8 +406,7 @@
           "settings": {
             "heading": "7. How much time do I need for each session?",
             "icon": "check_mark",
-            "row_content": "<p>Each session only takes a few minutes, making it easy to fit into your daily routine. It’s quick, effortless, and effective!</p>",
-            "page": ""
+            "row_content": "<p>Each session only takes a few minutes, making it easy to fit into your daily routine. It’s quick, effortless, and effective!</p>"
           }
         },
         "collapsible_row_YM3tqQ": {
@@ -421,8 +414,7 @@
           "settings": {
             "heading": "8. What if I’m not satisfied with the product?",
             "icon": "check_mark",
-            "row_content": "<p>We’re confident you’ll love MammaGlow™, but if for any reason you're not completely satisfied, we offer a hassle-free return policy to ensure your peace of mind.</p>",
-            "page": ""
+            "row_content": "<p>We’re confident you’ll love MammaGlow™, but if for any reason you're not completely satisfied, we offer a hassle-free return policy to ensure your peace of mind.</p>"
           }
         }
       },
@@ -440,15 +432,7 @@
         "caption": "",
         "heading": "Curious About MammaGlow? We’ve Got You Covered",
         "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "",
-        "container_color_scheme": "scheme-1",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "color_scheme": ""
       }
     }
   },
