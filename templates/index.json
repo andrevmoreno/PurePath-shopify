@@ -295,16 +295,16 @@
           "type": "column",
           "settings": {
             "heading": "Struggling with the Effects of Postpartum Hair Loss?",
-            "content": "After your baby’s arrival, hormonal changes can lead to thinning hair—just when you need to feel your best. It’s frustrating to see your hair suffer during such a beautiful but challenging time.",
+            "content": "After your baby’s arrival, hormonal changes can lead to thinning hair—just when you need to feel your best. It’s frustrating to see your hair suffer during such a beautiful but challenging time. Between sleepless nights and constant feedings, carving out even a few minutes for yourself seems impossible. You deserve self-care, but finding the time is overwhelming.",
             "link_label": "",
             "link": ""
           }
         },
-        "column_mBiend": {
+        "column_NwfgCM": {
           "type": "column",
           "settings": {
-            "heading": "No Time for Self-Care?",
-            "content": "Between sleepless nights and constant feedings, carving out even a few minutes for yourself seems impossible. You deserve self-care, but finding the time is overwhelming.",
+            "heading": "Feeling Stressed and Tense?",
+            "content": "Motherhood brings joy, but it also brings stress. That tension shows up in your scalp, in your hair, and in your spirit. You need a way to relieve that pressure and feel good again.You want a solution that works—but it has to be gentle, non-invasive, and safe for both you and your baby. Your peace of mind is just as important as your results.",
             "link_label": "Learn More",
             "link": ""
           }
@@ -313,7 +313,7 @@
       "block_order": [
         "image_dTiM6N",
         "column_MkRgQw",
-        "column_mBiend"
+        "column_NwfgCM"
       ],
       "settings": {
         "heading": "<strong>Postpartum Hair Loss? We Understand the Struggle</strong>",
