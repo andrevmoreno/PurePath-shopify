@@ -4,6 +4,12 @@
   align-items: center;
   padding: 2rem;
 }
+.collapsible__content {
+  display: flex;
+  margin-bottom: 0px 120px;
+  flex-direction: column;
+  gap: 1.5rem;
+}
 .accordion {
   display: flex;
   align-items: center;
@@ -15,13 +21,6 @@
     flex-direction: row;
     align-items: flex-start;
   }
-}
-
-.collapsible__content {
-  display: flex;
-  margin-bottom: 0px 120px;
-  flex-direction: column;
-  gap: 1.5rem;
 }
 
 .collapsible__image {
