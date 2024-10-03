@@ -29,8 +29,11 @@
 }
 
 @media screen and (min-width: 750px) and (max-width: 1024px) {
-  .helpers .collapsible__image {
-    align-items: center;
+  .helpers .grid__item.collapsible__image {
+    display: flex;
+  }
+  .helpers .collapsible__image img {
+    object-fit: contain;
   }
 }
 
