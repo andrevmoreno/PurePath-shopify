@@ -1,12 +1,13 @@
 .collapsible-section {
   display: flex;
+  flex-direction: column;
   padding: 5rem 0;
 }
 
 @media screen and (min-width: 750px) {
   .collapsible-section {
     padding: 7rem 0;
-    flex-direction: row;
+    flex-direction: row-reverse;
   }
 }
 
@@ -22,11 +23,10 @@
 
 .collapsible__block {
   max-width: 100%;
-  order: 2; /* Se muestra después de la imagen en móviles */
+  order: 2;
 }
-
 .collapsible__image {
-  order: 1; /* Se muestra primero en móviles */
+  order: 1;
 }
 
 .collapsible__image img {
@@ -43,7 +43,7 @@
 
 @media screen and (min-width: 750px) {
   .grid--2-col {
-    flex-direction: row;
+    flex-direction: row-reverse;
   }
 
   .grid__item {
@@ -51,11 +51,11 @@
   }
 
   .collapsible__block {
-    order: 1; /* En escritorio, el contenido queda a la izquierda */
+    order: 1;
   }
 
   .collapsible__image {
-    order: 2; /* En escritorio, la imagen queda a la derecha */
+    order: 2;
   }
 }
 
