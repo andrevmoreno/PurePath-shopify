@@ -249,6 +249,29 @@
         "include_margins": true
       }
     },
+    "rich_text_4rcULp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TirbFw": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Curious About MammaGlow? We’ve Got You Covered</strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TirbFw"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": false,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
     "collapsible_content_axw8Ta": {
       "type": "collapsible-content",
       "blocks": {
@@ -343,6 +366,7 @@
     "image_with_text_xmLd9g",
     "image_with_text_4qL9DV",
     "1727909974a83720ca",
+    "rich_text_4rcULp",
     "collapsible_content_axw8Ta"
   ]
 }
