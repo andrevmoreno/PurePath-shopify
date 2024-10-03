@@ -2,6 +2,9 @@
   display: flex;
   padding: 5rem 0;
 }
+.collapsible__content {
+  display: grid;
+}
 .collapsible__image img {
   width: 100%;
   height: auto;
