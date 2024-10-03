@@ -1,26 +1,31 @@
 .collapsible-section {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 2rem;
-  margin-bottom: 120px;
+  padding: 5rem 0;
 }
 
-.collapsible__content {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
+@media screen and (min-width: 750px) {
+  .collapsible-section {
+    padding: 7rem 0;
+  }
 }
 
-/* Corrección en el valor de margin */
-.accordion {
+.grid--2-col {
   display: flex;
-  align-items: center;
-  gap: 16px;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
-.collapsible__image {
-  display: flex;
+.grid__item {
+  flex: 1 1 50%;
+}
+
+.collapsible__block {
+  max-width: 100%;
+}
+
+.collapsible__image img {
+  width: 100%;
+  height: auto;
   align-items: center;
   justify-content: center;
   border-radius: 12px;
@@ -28,23 +33,17 @@
   background: #fff;
   box-shadow: 0px 8px 0px 0px #5e6069;
   overflow: hidden;
-  order: -1;
 }
 
-/* Ajuste de posición para mobile y escritorio */
-@media screen and (min-width: 750px) {
-  .collapsible__content {
-    flex-direction: row;
+@media screen and (max-width: 749px) {
+  .grid--2-col {
+    flex-direction: column;
   }
+
+  .collapsible__block,
   .collapsible__image {
-    order: 1;
+    flex: 1 1 100%;
   }
-}
-
-.collapsible__image img {
-  border-radius: 12px;
-  max-width: 100%;
-  height: auto;
 }
 
 /* check for flexbox gap in older Safari versions
