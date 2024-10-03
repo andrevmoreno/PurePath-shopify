@@ -1,3 +1,7 @@
+.helpers {
+  padding-bottom: 40px;
+}
+
 @media screen and (max-width: 480px) {
 }
 
@@ -25,6 +29,9 @@
 }
 
 @media screen and (min-width: 750px) and (max-width: 1024px) {
+  .helpers .collapsible__image {
+    align-items: center;
+  }
 }
 
 @media screen and (min-width: 750px) {
