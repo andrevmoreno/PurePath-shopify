@@ -163,7 +163,7 @@
         "button_fB7Qy7"
       ],
       "settings": {
-        "image": "shopify://shop_images/Addaheading_4.png",
+        "image": "shopify://shop_images/GIFMaker_me_1.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -184,22 +184,22 @@
         "heading_PKJwA4": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "<strong>The Ultimate Postpartum Hair Regrowth Solution</strong>",
             "heading_size": "h1"
           }
         },
         "text_w83riK": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>MammaGlow™ is designed to tackle the most pressing issue new moms face—postpartum hair loss. With our gentle, yet powerful combination of infrared light therapy and scalp massage, MammaGlow™ helps you restore your hair and your confidence.</p><p>Here’s how MammaGlow™ can help you:</p><ul><li><strong>Stimulates Natural Regrowth: </strong>The 630nm infrared light targets hair follicles, boosting blood circulation to reverse postpartum thinning and help your hair grow back naturally.<br/></li><li><strong>Boosts Confidence: </strong>By addressing the root cause of postpartum hair loss, MammaGlow™ restores your hair and your sense of self—making you feel like yourself again.<br/></li><li><strong>Safe & Effortless Self-Care: </strong>With no harsh chemicals or long treatments, MammaGlow™ offers an easy-to-use, at-home solution in just minutes a day.<br/></li></ul>",
             "text_style": "body"
           }
         },
         "button_TnAX89": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Reclaim Your Glow!",
+            "button_link": "shopify://products/portable-3-mode-red-light-laser-electric-massage-comb",
             "button_style_secondary": false
           }
         }
@@ -210,6 +210,7 @@
         "button_TnAX89"
       ],
       "settings": {
+        "image": "shopify://shop_images/hair-spray_5e1cf449-0382-4894-a1c7-b5da2a5c7684.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -223,6 +224,89 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1727909974a83720ca": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_section_HXRDFj": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_HXRDFj"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "collapsible_content_axw8Ta": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_P6ymGy": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_DndxER": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_GbmUfa": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_JnfTyx": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_P6ymGy",
+        "collapsible_row_DndxER",
+        "collapsible_row_GbmUfa",
+        "collapsible_row_JnfTyx"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Collapsible content",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -230,6 +314,8 @@
     "related-products",
     "1727810327fe562ed1",
     "image_with_text_xmLd9g",
-    "image_with_text_4qL9DV"
+    "image_with_text_4qL9DV",
+    "1727909974a83720ca",
+    "collapsible_content_axw8Ta"
   ]
 }

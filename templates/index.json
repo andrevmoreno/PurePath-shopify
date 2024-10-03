@@ -126,7 +126,7 @@
         "button_EaXbVg"
       ],
       "settings": {
-        "image": "shopify://shop_images/uX7eNqFbXTjBy25ReRpt.webp",
+        "image": "shopify://shop_images/grid-2.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -173,7 +173,7 @@
         "button_fCYMHE"
       ],
       "settings": {
-        "image": "shopify://shop_images/Screenshot_2024-09-30_at_11.23.26_PM.png",
+        "image": "shopify://shop_images/grid-3.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -220,7 +220,7 @@
         "button_WzHfcV"
       ],
       "settings": {
-        "image": "shopify://shop_images/Screenshot_2024-09-30_at_11.23.14_PM.png",
+        "image": "shopify://shop_images/Sb9c46131f0a8471a9d00444cbe555ea6u.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -267,7 +267,7 @@
         "button_t7THyN"
       ],
       "settings": {
-        "image": "shopify://shop_images/Screenshot_2024-09-30_at_11.23.26_PM.png",
+        "image": "shopify://shop_images/grid-1.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -288,7 +288,7 @@
         "image_dTiM6N": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/mess-hair.png"
+            "image": "shopify://shop_images/mess-hair_7aba4a35-1a9e-4cb4-a0dd-deceb9a19112.png"
           }
         },
         "column_MkRgQw": {
@@ -296,6 +296,15 @@
           "settings": {
             "heading": "Struggling with the Effects of Postpartum Hair Loss?",
             "content": "After your baby’s arrival, hormonal changes can lead to thinning hair—just when you need to feel your best. It’s frustrating to see your hair suffer during such a beautiful but challenging time.",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_mBiend": {
+          "type": "column",
+          "settings": {
+            "heading": "No Time for Self-Care?",
+            "content": "Between sleepless nights and constant feedings, carving out even a few minutes for yourself seems impossible. You deserve self-care, but finding the time is overwhelming.",
             "link_label": "Learn More",
             "link": ""
           }
@@ -303,7 +312,8 @@
       },
       "block_order": [
         "image_dTiM6N",
-        "column_MkRgQw"
+        "column_MkRgQw",
+        "column_mBiend"
       ],
       "settings": {
         "heading": "<strong>Postpartum Hair Loss? We Understand the Struggle</strong>",
@@ -312,6 +322,30 @@
         "mobile_layout": "collage",
         "card_styles": "product-card-wrapper",
         "color_scheme": "scheme-4",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "collage_89czmW": {
+      "type": "collage",
+      "blocks": {
+        "image_QYDTak": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Key_Values.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_QYDTak"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -427,6 +461,7 @@
     "image_with_text_67zmpq",
     "image_with_text_x98rGY",
     "collage_8Kk8jB",
+    "collage_89czmW",
     "collapsible_content_7VrzHW"
   ]
 }
