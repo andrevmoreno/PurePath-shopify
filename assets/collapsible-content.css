@@ -28,8 +28,4 @@
 }
 
 @media screen and (min-width: 750px) {
-  .helpers .collapsible__content {
-    margin: 0 auto;
-    max-width: var(--page-width);
-  }
 }
