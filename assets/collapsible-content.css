@@ -1,13 +1,11 @@
 .collapsible-section {
   display: flex;
-  flex-direction: column;
   padding: 5rem 0;
 }
 
 @media screen and (min-width: 750px) {
   .collapsible-section {
     padding: 7rem 0;
-    flex-direction: row-reverse;
   }
 }
 
@@ -15,18 +13,34 @@
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
+  align-items: center; 
 }
 
 .grid__item {
-  flex: 1 1 100%;
+  flex: 1 1 50%;
 }
 
 .collapsible__block {
   max-width: 100%;
+}
+
+.collapsible__image {
   order: 2;
 }
-.collapsible__image {
+
+.collapsible__block {
   order: 1;
+}
+
+@media screen and (min-width: 750px) {
+  .collapsible__image {
+    order: 1; 
+    margin-left: auto; 
+  }
+
+  .collapsible__block {
+    order: 2; 
+    margin-right: auto;
 }
 
 .collapsible__image img {
@@ -41,23 +55,16 @@
   overflow: hidden;
 }
 
-@media screen and (min-width: 750px) {
-  .grid--2-col {
-    flex-direction: row-reverse;
-  }
-
-  .grid__item {
-    flex: 1 1 50%;
-  }
-
-  .collapsible__block {
-    order: 1;
-  }
-
-  .collapsible__image {
-    order: 2;
-  }
+.accordion {
+  display: flex;
+  align-items: center;
+  gap: 1rem; /* Añadimos un poco de espacio entre el ícono y el texto */
 }
+
+.accordion__title {
+  margin-left: 0.5rem; /* Espacio adicional para mejorar la separación entre ícono y título */
+}
+
 
 /* check for flexbox gap in older Safari versions
 @supports not (inset: 10px) {
