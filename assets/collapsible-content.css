@@ -7,6 +7,12 @@
 .collapsible__content {
   margin: 0 120px;
 }
+.grid__item .collapsible__image {
+  border-radius: 12px;
+  border: 7px solid var(--Text, #5e6069);
+  background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
 @media screen and (min-width: 750px) {
   .collapsible-section-layout {
     padding: 7rem 0;
