@@ -29,6 +29,9 @@
 }
 
 @media screen and (min-width: 750px) and (max-width: 1024px) {
+}
+
+@media screen and (min-width: 750px) {
   .helpers .grid__item.collapsible__image {
     display: flex;
     align-items: center;
@@ -36,7 +39,4 @@
   .helpers .collapsible__image img {
     object-fit: contain;
   }
-}
-
-@media screen and (min-width: 750px) {
 }
