@@ -62,6 +62,7 @@ variant-selects {
 /* Custom styles for Pill display type */
 .product-form__input--pill input[type='radio'] + label {
   background-color: red !important;
+  padding: 2px;
   color: rgba(var(--color-foreground));
   border-radius: 50%; /* Para hacerlo redondo */
   width: 3rem; /* Ajusta el tamaño del círculo */
