@@ -1,7 +1,9 @@
 .helpers {
   padding-bottom: 40px;
 }
-
+.helpers summary .accordion__title {
+  margin-left: 1rem;
+}
 @media screen and (max-width: 480px) {
 }
 
@@ -21,10 +23,6 @@
 
   .helpers .grid--2-col .grid__item .collapsible__block .accordion:first-child {
     margin-top: 0;
-  }
-
-  .helpers summary .accordion__title {
-    margin-left: 1rem;
   }
 }
 
