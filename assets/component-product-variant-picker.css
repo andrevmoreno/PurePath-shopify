@@ -64,7 +64,7 @@ variant-selects {
   border: var(--variant-pills-border-width) solid
     rgba(var(--color-foreground), var(--variant-pills-border-opacity));
   background-color: rgb(var(--color-background));
-  color: red;
+  color: red !important;
   border-radius: var(--variant-pills-radius);
   display: inline-block;
   margin: 0.7rem 0.5rem 0.2rem 0;
