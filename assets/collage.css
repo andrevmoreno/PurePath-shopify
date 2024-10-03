@@ -5,6 +5,8 @@
 
 .collage {
   display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
 }
 
 .collage__item > * {
@@ -17,8 +19,12 @@
 
 @media screen and (max-width: 749px) {
   .collage {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+    /*
     grid-column-gap: var(--grid-mobile-horizontal-spacing);
     grid-row-gap: var(--grid-mobile-vertical-spacing);
+    */
   }
 
   .collage--mobile {
@@ -204,6 +210,10 @@
 .collage-card .deferred-media__poster:focus {
   outline: none;
   box-shadow: none;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .custom-rich-text {
   background-color: #f8f9fc;
