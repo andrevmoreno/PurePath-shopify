@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 750px) {
   .helpers {
-    margin: 0 20px;
+    margin: 0 10px;
   }
 
   .helpers .grid--2-col {
