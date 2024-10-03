@@ -23,6 +23,11 @@
 
 .collapsible__block {
   max-width: 100%;
+  order: 2; /* Se muestra después de la imagen en móviles */
+}
+
+.collapsible__image {
+  order: 1; /* Se muestra primero en móviles */
 }
 
 .collapsible__image img {
@@ -37,14 +42,21 @@
   overflow: hidden;
 }
 
-@media screen and (max-width: 749px) {
+@media screen and (min-width: 750px) {
   .grid--2-col {
-    flex-direction: column;
+    flex-direction: row;
   }
 
-  .collapsible__block,
+  .grid__item {
+    flex: 1 1 50%;
+  }
+
+  .collapsible__block {
+    order: 1; /* En escritorio, el contenido queda a la izquierda */
+  }
+
   .collapsible__image {
-    flex: 1 1 100%;
+    order: 2; /* En escritorio, la imagen queda a la derecha */
   }
 }
 
