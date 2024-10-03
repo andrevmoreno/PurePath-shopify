@@ -58,6 +58,9 @@ variant-selects {
   height: var(--swatch-input--size);
   z-index: 1;
 }
+.product-form__input--pill .form__label span[data-selected-value] {
+  display: none;
+}
 
 /* Custom styles for Pill display type */
 .product-form__input--pill input[type='radio'] + label {

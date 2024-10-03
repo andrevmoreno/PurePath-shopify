@@ -31,7 +31,11 @@
         <fieldset class="js product-form__input product-form__input--swatch">
           <legend class="form__label">
             {{ option.name }}:
-
+{%- comment -%}
+<span data-selected-value>
+  {{- option.selected_value -}}
+</span>
+{%- endcomment -%}
 
           </legend>
           {% render 'product-variant-options',
