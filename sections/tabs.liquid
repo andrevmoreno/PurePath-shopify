@@ -2,38 +2,38 @@
 {{ 'section-rich-text.css'| asset_url | stylesheet_tag }}
 {{ 'base.css'| asset_url | stylesheet_tag }}
 
-<div class="tabs-section">
+<div class="tabs-section color-scheme-{{ section.settings.color_scheme }}">
     <div class="tabs-header">
-      {% for block in section.blocks %}
-        <button class="tab-button" data-tab-target="#tab-{{ block.id }}">
-          {{ block.settings.tab_title }}
-        </button>
-      {% endfor %}
+        {% for block in section.blocks %}
+            <button class="tab-button" data-tab-target="#tab-{{ block.id }}">
+                {{ block.settings.tab_title }}
+            </button>
+        {% endfor %}
     </div>
     <div class="tabs-content">
-      {% for block in section.blocks %}
-        <div id="tab-{{ block.id }}" class="tab-content">
-          <div class="tab-image">
-            <img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.image_alt }}" width="100%" height="auto">
-          </div>
-          <div class="tab-text">
-            {{ block.settings.text }}
-          </div>
-        </div>
-      {% endfor %}
+        {% for block in section.blocks %}
+            <div id="tab-{{ block.id }}" class="tab-content">
+                <div class="tab-image">
+                    <img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.image_alt }}" width="100%" height="auto">
+                </div>
+                <div class="tab-text">
+                    {{ block.settings.text }}
+                </div>
+            </div>
+        {% endfor %}
     </div>
-  </div>
+</div>
+<script src="{{ 'tabs.js' | asset_url }}" defer></script>
 
-{% comment %}  <script src="{{ 'tabs.js' | asset_url }}" defer></script> {% endcomment %}
 {% schema %}
 {
   "name": "Tabs",
   "settings": [
     {
-      "type": "text",
-      "id": "title",
-      "label": "Section Title",
-      "default": "Our Tabs"
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "default": "scheme-1"
     }
   ],
   "blocks": [
@@ -42,21 +42,32 @@
       "name": "Tab",
       "settings": [
         {
+          "type": "text",
+          "id": "tab_title",
+          "label": "Tab Title"
+        },
+        {
           "type": "image_picker",
-          "id": "tab_image",
-          "label": "Tab Image"
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "image_alt",
+          "label": "Image Alt Text"
         },
         {
           "type": "richtext",
-          "id": "tab_text",
-          "label": "Tab Text"
+          "id": "text",
+          "label": "Tab Content Text"
         }
       ]
     }
   ],
   "presets": [
     {
-      "name": "Tabs"
+      "name": "Default",
+      "category": "Custom"
     }
   ]
 }

@@ -1520,19 +1520,42 @@
     ]
   },
   {
-    "name": "Tabs Section",
+    "name": "Tabs",
     "settings": [
       {
-        "type": "checkbox",
-        "id": "enable_tabs",
-        "label": "Enable Tabs Section",
-        "default": true
+        "type": "color_scheme",
+        "id": "color_scheme",
+        "label": "Color Scheme",
+        "default": "scheme-1"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "tab",
+        "name": "Tab",
+        "settings": [
+          {
+            "type": "text",
+            "id": "tab_title",
+            "label": "Tab Title"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "richtext",
+            "id": "text",
+            "label": "Tab Content Text"
+          }
+        ]
       }
     ],
     "presets": [
       {
-        "name": "Tabs",
-        "category": "Content"
+        "name": "Default",
+        "category": "Custom"
       }
     ]
   }
