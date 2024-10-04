@@ -311,6 +311,9 @@
 
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       {{ content_for_layout }}
+      {%- if settings.show_tabs_section -%}
+        {% section 'tabs' %}
+      {%- endif -%}
     </main>
 
     {% sections 'footer-group' %}
@@ -379,10 +382,8 @@
     {% if settings.show_pain_points %}
       {% section 'pain-points' %}
     {% endif %}
-    
-    {%- if settings.show_tabs_section -%}
-      {% section 'tabs' %}
-    {%- endif -%}
+
+
     
 
   </body>
