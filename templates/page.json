@@ -1,14 +1,273 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
       "type": "main-page",
       "settings": {
         "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_Cjyrhk": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_ALKcHa": {
+          "type": "heading",
+          "settings": {
+            "heading": "<em><strong>Empowering Moms, One Strand at a Time</strong></em>",
+            "heading_size": "h1"
+          }
+        },
+        "text_gUwrka": {
+          "type": "text",
+          "settings": {
+            "text": "<em><strong>Regain Your Hair’s Vitality and Confidence</strong></em><em>At </em><em><strong>MammaGlow™</strong></em><em>, we understand how busy life can be for moms, and we’re here to support you every step of the way. Our mission is to help you restore your hair’s vitality and confidence—</em><em><strong>quickly, safely, and effortlessly</strong></em><em> with solutions designed just for you.MammaGlow™ is more than a product; it’s a trusted companion that makes self-care easy. In just a few minutes each day, you can </em><em><strong>reclaim your confidence</strong></em><em> and refresh your routine. We believe that self-care should be </em><em><strong>simple, effective</strong></em><em>, and above all, an act of </em><em><strong>self-love</strong></em><em>.</em>",
+            "text_style": "body"
+          }
+        },
+        "buttons_pBHKCF": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ALKcHa",
+        "text_gUwrka",
+        "buttons_pBHKCF"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Productphoto-470077654276-02-Screenshot2024-08-30111855.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_with_text_4WgMxh": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_tk9N3b": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Why MammaGlow™?</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_cKA98a": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At <strong>MammaGlow™</strong>, we set out with one goal: to make postpartum hair care <strong>easy and accessible</strong> for every mom. Whether you're battling hair thinning or just need a moment of relaxation, <strong>MammaGlow™</strong> is designed to fit seamlessly into your busy life.</p><p>Our product blends <strong>science-backed technology</strong> with a <strong>thoughtful, nurturing design</strong>, so every time you use it, you’ll feel cared for. </p><p>We’re here to help you feel your best throughout the incredible journey of motherhood.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_wkd8kk": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_tk9N3b",
+        "text_cKA98a",
+        "button_wkd8kk"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/grid-1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_9M8RxQ": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_33n6WE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Mask_group-2.png",
+            "title": "<strong>Empowerment Through Self-Care</strong>",
+            "text": "<p>We believe every mom deserves to feel empowered. Our products make self-care easy and effective.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yVAwak": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Mask_group-3.png",
+            "title": "<strong>Safe, Gentle, and Effective Solutions</strong>",
+            "text": "<p><em>MammaGlow™ combines light therapy and scalp massage for natural hair regrowth—safe for sensitive scalps.</em></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_mwGdFb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Mask_group.png",
+            "title": "<strong>Innovation for Busy Lives</strong>",
+            "text": "<p><em>Designed for busy moms, MammaGlow™ delivers visible results in just minutes a day—making self-care effortless.</em></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_4zYdxK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Mask_group-1_30119a13-72e7-4792-8cfa-7007db9d0347.png",
+            "title": "Results-Driven Care",
+            "text": "<p><em>MammaGlow™ provides real, visible results, helping moms regain their hair and confidence with science-backed solutions.</em></p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_33n6WE",
+        "column_yVAwak",
+        "column_mwGdFb",
+        "column_4zYdxK"
+      ],
+      "settings": {
+        "title": "<strong>MammaGlow™: Where Safe, Effective Care Meets Innovation for Moms</strong>",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "slideshow_yNfyLQ": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_RVeNdB": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/beautiful-coquettish-girl-playing-with-her-hair-smiling-staring-selfassured-camera-making-gla_1.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "Join thousands of empowered moms who have transformed their hair and confidence with MammaGlow™Don’t wait—start your journey to healthier, stronger hair today!",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_RVeNdB"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "image_with_text_7wdi8H": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_ndjH8t": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Our Promise to You</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_Hpfw9B": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li><strong>Safe and Gentle</strong></li></ul><p> Dermatologically tested, with no harsh chemicals, ensuring peace of mind with every use.</p><ul><li><strong>Visible Results</strong></li></ul><p>Designed to promote natural hair regrowth in just minutes a day.</p><ul><li><strong>Effortless Self-Care</strong></li></ul><p>Quick, easy-to-use, and tailored to fit into your daily routine, no matter how busy you are.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_e44feR": {
+          "type": "button",
+          "settings": {
+            "button_label": "Discover MammaGlow™ today!",
+            "button_link": "shopify://products/portable-3-mode-red-light-laser-electric-massage-comb",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ndjH8t",
+        "text_Hpfw9B",
+        "button_e44feR"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/GIFMaker_me_2.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
         "padding_bottom": 36
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_banner_Cjyrhk",
+    "image_with_text_4WgMxh",
+    "multicolumn_9M8RxQ",
+    "slideshow_yNfyLQ",
+    "image_with_text_7wdi8H"
   ]
 }

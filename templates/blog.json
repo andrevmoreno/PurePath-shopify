@@ -1,7 +1,17 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
       "type": "main-blog",
+      "disabled": true,
       "settings": {
         "layout": "collage",
         "show_image": true,
@@ -11,9 +21,118 @@
         "padding_top": 12,
         "padding_bottom": 64
       }
+    },
+    "collage_QYYUJW": {
+      "type": "collage",
+      "blocks": {
+        "image_B6fEQP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/smiling-brunette-woman-brushing-her-healthy-long-dark-hair-adjusting-hairstyle-standing-tanktop-against-white-background_1.png"
+          }
+        },
+        "column_bpkhwx": {
+          "type": "column",
+          "settings": {
+            "heading": "",
+            "content": "At MammaGlow™, our mission is to empower new moms with practical, safe, and effective hair care solutions that fit seamlessly into their busy lives. We believe in simplifying self-care, helping women regain their confidence and vitality.<strong>Discover Our Core Values: Empowering Moms with Safe, Effective, and Innovative Care</strong>",
+            "link_label": "Learn More",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_B6fEQP",
+        "column_bpkhwx"
+      ],
+      "settings": {
+        "heading": "<strong>Discover Our Core Values</strong>",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "scheme-4",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_c7Mf6j": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_LnKHrc": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>EMPOWERMENT THROUGH SELF-CARE</strong>",
+            "text": "<p>At the heart of <strong>MammaGlow™</strong> is the commitment to <strong>empower women</strong>—especially new moms—by helping them reclaim their confidence. . </p><p>Our products are designed to help women take control of their self-care routine in a way that’s easy and effective.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_nwARhz": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>SAFE, GENTLE, AND EFFECTIVE SOLUTIONS</strong>",
+            "text": "<p><strong>MammaGlow™</strong> prioritizes <strong>safety and comfort</strong> for new moms dealing with postpartum hair loss. </p><p>By offering <strong>chemical-free</strong>, <strong>dermatologically tested</strong> products, that provide visible results without irritation.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_g6i6kR": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>INNOVATION FOR BUSY LIVES</strong>",
+            "text": "<p>Our products are created with busy moms in mind. <strong>MammaGlow™</strong> offers a <strong>quick and easy solution</strong> that fits effortlessly into daily routines, delivering results in just minutes a day. </p><p>We value efficiency and simplicity, ensuring moms can prioritize their self-care.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qAhNBD": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>COMMUNITY AND SUPPORT</strong>",
+            "text": "<p>We are committed to delivering real, visible results. </p><p>Whether it’s promoting natural hair regrowth or reducing postpartum hair thinning, <strong>MammaGlow™ combines science-backed technology </strong>with effective solutions that moms can rely on.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KimAGQ": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>RESULTS-DRIVEN CARE</strong>",
+            "text": "<p>We are committed to delivering real, visible results. </p><p>Whether it’s promoting natural hair regrowth or reducing postpartum hair thinning, <strong>MammaGlow™ combines science-backed technology </strong>with effective solutions that moms can rely on.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_LnKHrc",
+        "column_nwARhz",
+        "column_g6i6kR",
+        "column_qAhNBD",
+        "column_KimAGQ"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "collage_QYYUJW",
+    "multicolumn_c7Mf6j"
   ]
 }

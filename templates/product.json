@@ -22,9 +22,12 @@
           "settings": {
           }
         },
-        "price": {
-          "type": "price",
+        "inventory_AQQhQz": {
+          "type": "inventory",
           "settings": {
+            "text_style": "body",
+            "inventory_threshold": 4,
+            "show_inventory_quantity": false
           }
         },
         "variant_picker": {
@@ -55,7 +58,7 @@
       "block_order": [
         "title",
         "rating_fMBmdg",
-        "price",
+        "inventory_AQQhQz",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
