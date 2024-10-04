@@ -22,11 +22,6 @@
           "settings": {
           }
         },
-        "price": {
-          "type": "price",
-          "settings": {
-          }
-        },
         "inventory_AQQhQz": {
           "type": "inventory",
           "settings": {
@@ -63,7 +58,6 @@
       "block_order": [
         "title",
         "rating_fMBmdg",
-        "price",
         "inventory_AQQhQz",
         "variant_picker",
         "quantity_selector",
