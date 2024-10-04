@@ -25,16 +25,15 @@
   </div>
 
 {% comment %}  <script src="{{ 'tabs.js' | asset_url }}" defer></script> {% endcomment %}
-
-  {% schema %}
+{% schema %}
 {
-  "name": "Tabs Section",
+  "name": "Tabs",
   "settings": [
     {
       "type": "text",
-      "id": "section_title",
+      "id": "title",
       "label": "Section Title",
-      "default": "Tabs Section"
+      "default": "Our Tabs"
     }
   ],
   "blocks": [
@@ -43,34 +42,21 @@
       "name": "Tab",
       "settings": [
         {
-          "type": "text",
-          "id": "tab_title",
-          "label": "Tab Title",
-          "default": "New Tab"
-        },
-        {
           "type": "image_picker",
-          "id": "image",
+          "id": "tab_image",
           "label": "Tab Image"
         },
         {
-          "type": "text",
-          "id": "image_alt",
-          "label": "Image Alt Text"
-        },
-        {
           "type": "richtext",
-          "id": "text",
-          "label": "Tab Text",
-          "default": "Add some content here."
+          "id": "tab_text",
+          "label": "Tab Text"
         }
       ]
     }
   ],
   "presets": [
     {
-      "name": "Default",
-      "category": "Custom Sections"
+      "name": "Tabs"
     }
   ]
 }
