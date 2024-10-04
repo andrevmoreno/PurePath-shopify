@@ -1520,13 +1520,19 @@
     ]
   },
   {
-    "name": "Tabs Section Visibility",
+    "name": "Tabs Section",
     "settings": [
       {
         "type": "checkbox",
-        "id": "show_tabs_section",
-        "label": "Show Tabs Section",
+        "id": "enable_tabs",
+        "label": "Enable Tabs Section",
         "default": true
+      }
+    ],
+    "presets": [
+      {
+        "name": "Tabs",
+        "category": "Content"
       }
     ]
   }
