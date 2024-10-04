@@ -372,10 +372,20 @@
             "image_alt": "",
             "text": "<p>xxxx</p>"
           }
+        },
+        "tab_3DRXaH": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "cccc",
+            "image": "shopify://shop_images/Kaching-Bundles-grid-1_3cefab84-a65b-4819-8d2a-c79e47c819a3.png",
+            "image_alt": "ccc",
+            "text": "<p>cccccvds</p>"
+          }
         }
       },
       "block_order": [
-        "tab_83kkW6"
+        "tab_83kkW6",
+        "tab_3DRXaH"
       ],
       "settings": {
         "color_scheme": ""
