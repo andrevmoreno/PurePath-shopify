@@ -102,7 +102,7 @@
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
+        "content_layout": "overlap",
         "section_color_scheme": "",
         "color_scheme": "",
         "image_behavior": "none",
@@ -171,9 +171,92 @@
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "slideshow_yNfyLQ": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_RVeNdB": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/beautiful-coquettish-girl-playing-with-her-hair-smiling-staring-selfassured-camera-making-gla_1.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "Join thousands of empowered moms who have transformed their hair and confidence with MammaGlow™Don’t wait—start your journey to healthier, stronger hair today!",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_RVeNdB"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "image_with_text_7wdi8H": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_ndjH8t": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Our Promise to You</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_Hpfw9B": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li><strong>Safe and Gentle</strong></li></ul><p> Dermatologically tested, with no harsh chemicals, ensuring peace of mind with every use.</p><ul><li><strong>Visible Results</strong></li></ul><p>Designed to promote natural hair regrowth in just minutes a day.</p><ul><li><strong>Effortless Self-Care</strong></li></ul><p>Quick, easy-to-use, and tailored to fit into your daily routine, no matter how busy you are.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_e44feR": {
+          "type": "button",
+          "settings": {
+            "button_label": "Discover MammaGlow™ today!",
+            "button_link": "shopify://products/portable-3-mode-red-light-laser-electric-massage-comb",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ndjH8t",
+        "text_Hpfw9B",
+        "button_e44feR"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/GIFMaker_me_2.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -183,6 +266,8 @@
     "main",
     "image_banner_Cjyrhk",
     "image_with_text_4WgMxh",
-    "multicolumn_9M8RxQ"
+    "multicolumn_9M8RxQ",
+    "slideshow_yNfyLQ",
+    "image_with_text_7wdi8H"
   ]
 }
