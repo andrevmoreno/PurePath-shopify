@@ -1,0 +1,36 @@
+.tabs-header {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.tab-button {
+  padding: 0.5rem 1rem;
+  background-color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tab-button:hover {
+  background-color: #e0e0e0;
+}
+
+.tabs-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.tab-image img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.tab-text {
+  font-size: 1rem;
+  line-height: 1.5;
+}

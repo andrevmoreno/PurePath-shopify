@@ -1,0 +1,75 @@
+{{ 'tabs.css' | asset_url | stylesheet_tag }}
+{{ 'section-rich-text.css'| asset_url | stylesheet_tag }}
+{{ 'base.css'| asset_url | stylesheet_tag }}
+
+<div class="tabs-section">
+    <div class="tabs-header">
+      {% for block in section.blocks %}
+        <button class="tab-button" data-tab-target="#tab-{{ block.id }}">
+          {{ block.settings.tab_title }}
+        </button>
+      {% endfor %}
+    </div>
+    <div class="tabs-content">
+      {% for block in section.blocks %}
+        <div id="tab-{{ block.id }}" class="tab-content">
+          <div class="tab-image">
+            <img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.image_alt }}" width="100%" height="auto">
+          </div>
+          <div class="tab-text">
+            {{ block.settings.text }}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  
+  {% schema %}
+{
+  "name": "Tabs Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "Section Title",
+      "default": "Tabs Section"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "tab",
+      "name": "Tab",
+      "settings": [
+        {
+          "type": "text",
+          "id": "tab_title",
+          "label": "Tab Title",
+          "default": "New Tab"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Tab Image"
+        },
+        {
+          "type": "text",
+          "id": "image_alt",
+          "label": "Image Alt Text"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Tab Text",
+          "default": "Add some content here."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Default",
+      "category": "Custom Sections"
+    }
+  ]
+}
+{% endschema %}
