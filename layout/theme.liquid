@@ -379,8 +379,11 @@
     {% if settings.show_pain_points %}
       {% section 'pain-points' %}
     {% endif %}
-
-    {% section 'tabs' %}
+    
+    {%- if settings.show_tabs_section -%}
+      {% section 'tabs' %}
+    {%- endif -%}
+    
 
   </body>
 </html>

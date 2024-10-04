@@ -1518,5 +1518,16 @@
         "name": "Pain Points"
       }
     ]
+  },
+  {
+    "name": "Tabs Section Visibility",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "show_tabs_section",
+        "label": "Show Tabs Section",
+        "default": true
+      }
+    ]
   }
 ]
