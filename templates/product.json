@@ -360,6 +360,26 @@
         "heading_size": "h1",
         "color_scheme": ""
       }
+    },
+    "tabs_FNaUPB": {
+      "type": "tabs",
+      "blocks": {
+        "tab_83kkW6": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "nnnnnnn",
+            "image": "shopify://shop_images/Group_21.png",
+            "image_alt": "",
+            "text": "<p>xxxx</p>"
+          }
+        }
+      },
+      "block_order": [
+        "tab_83kkW6"
+      ],
+      "settings": {
+        "color_scheme": ""
+      }
     }
   },
   "order": [
@@ -370,6 +390,7 @@
     "image_with_text_4qL9DV",
     "1727909974a83720ca",
     "rich_text_4rcULp",
-    "collapsible_content_axw8Ta"
+    "collapsible_content_axw8Ta",
+    "tabs_FNaUPB"
   ]
 }
