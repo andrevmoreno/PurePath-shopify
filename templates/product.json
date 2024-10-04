@@ -99,6 +99,80 @@
         "padding_bottom": 64
       }
     },
+    "slideshow_8njnA9": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_zwFEJq": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/grid-1.png",
+            "heading": "<strong>Advanced Care for Your Hair & Scalp</strong>",
+            "heading_size": "h1",
+            "subheading": "<strong>Scalp Maintenance: Micro-Currents for Healthier Roots</strong>Strengthen your scalp and enhance product absorption with our micro-current technology. It targets common scalp issues, delivering healthier roots and better results—all in just minutes a day.<strong>Rich and Dense Hair: Red Light Therapy</strong>Experience thicker, stronger hair growth with 630nm infrared light that penetrates deep into the follicles to naturally nourish your roots—without harsh chemicals or invasive treatments.<strong>Grasp Massage: Gentle, Powerful Relief</strong>The 72-round comb teeth offer a deep kneading massage that boosts circulation and promotes scalp health. It’s like having your own relaxing head massage, anytime you need it. Choose from three modes:<strong>Quick Calm</strong>: Perfect for fast relaxation.<strong>Energy Boost</strong>: Revitalize your scalp for an energetic start.<strong>Restful Night</strong>: A soothing massage before bed for a restful night’s sleep.<strong>8-Guide Ball System: Even Application, Maximum Results</strong>Our 8 guide balls evenly distribute your hair care treatments, ensuring every part of your scalp receives the care and nourishment it needs. This guarantees better absorption and consistent results.<strong>Uniform Liquid Conduction: Nourishment from Root to Tip</strong>",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_WKxDDm": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Productphoto-470077654276-02-Screenshot2024-08-30111855.webp",
+            "heading": "<strong>Simple Steps for Effortless Use</strong>",
+            "heading_size": "h1",
+            "subheading": "<strong>Step 1: Add Your Hair Care Product</strong>Open the liquid tank cover and add your preferred amount of hair care product. You can skip this step if you prefer to use the comb without any product.<strong>Step 2: Turn On the Device</strong>Press and hold the power button for 2 seconds to power up the MammaGlow™. It’s ready to use in no time!<strong>Step 3: Switch Modes</strong>Easily switch between massage modes with a short press of the power button. Customize your experience based on what your scalp needs—relax, energize, or wind down.<strong>Step 4: Start Your Self-Care</strong>Gently apply the comb to your scalp and let MammaGlow™ do the work. Whether you're aiming for relaxation or hair growth, the device makes it simple and effective.",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_aVtefy": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/pexels-do-re-2634269_1.jpg",
+            "heading": "SHIPPING",
+            "heading_size": "h1",
+            "subheading": "At MammaGlow™, we know how important it is for you to start your self-care journey as soon as possible. That's why we're committed to delivering your MammaGlow™ promptly, so you can begin experiencing the relief and care you deserve.All orders are processed and shipped<strong> within 7 to 11 business days</strong>. Whether you're reclaiming your hair's health or finding a moment of relaxation, we ensure your MammaGlow™ arrives quickly, ready to make your routine effortless and enjoyable.Rest assured, your well-being is our priority, and your MammaGlow™ will be in your hands soon.",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_zwFEJq",
+        "slide_WKxDDm",
+        "slide_aVtefy"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "1727810327fe562ed1": {
       "type": "apps",
       "blocks": {
@@ -360,47 +434,17 @@
         "heading_size": "h1",
         "color_scheme": ""
       }
-    },
-    "tabs_FNaUPB": {
-      "type": "tabs",
-      "blocks": {
-        "tab_83kkW6": {
-          "type": "tab",
-          "settings": {
-            "tab_title": "nnnnnnn",
-            "image": "shopify://shop_images/Group_21.png",
-            "image_alt": "",
-            "text": "<p>xxxx</p>"
-          }
-        },
-        "tab_3DRXaH": {
-          "type": "tab",
-          "settings": {
-            "tab_title": "cccc",
-            "image": "shopify://shop_images/Kaching-Bundles-grid-1_3cefab84-a65b-4819-8d2a-c79e47c819a3.png",
-            "image_alt": "ccc",
-            "text": "<p>cccccvds</p>"
-          }
-        }
-      },
-      "block_order": [
-        "tab_83kkW6",
-        "tab_3DRXaH"
-      ],
-      "settings": {
-        "color_scheme": ""
-      }
     }
   },
   "order": [
     "main",
     "related-products",
+    "slideshow_8njnA9",
     "1727810327fe562ed1",
     "image_with_text_xmLd9g",
     "image_with_text_4qL9DV",
     "1727909974a83720ca",
     "rich_text_4rcULp",
-    "collapsible_content_axw8Ta",
-    "tabs_FNaUPB"
+    "collapsible_content_axw8Ta"
   ]
 }
