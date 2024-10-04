@@ -350,24 +350,6 @@
         "padding_bottom": 36
       }
     },
-    "tabs_HewXb7": {
-      "type": "tabs",
-      "blocks": {
-        "tab_JCkQCB": {
-          "type": "tab",
-          "settings": {
-            "tab_image": "shopify://shop_images/grid-2.png",
-            "tab_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "tab_JCkQCB"
-      ],
-      "settings": {
-        "title": "Our Tabs"
-      }
-    },
     "collapsible_content_7VrzHW": {
       "type": "collapsible-content",
       "blocks": {
@@ -464,7 +446,6 @@
     "image_with_text_x98rGY",
     "collage_8Kk8jB",
     "collage_89czmW",
-    "tabs_HewXb7",
     "collapsible_content_7VrzHW"
   ]
 }
